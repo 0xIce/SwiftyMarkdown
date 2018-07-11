@@ -1,9 +1,9 @@
 {
-  "name": "SwiftyCommonMark",
+  "name": "SwiftyMarkdown",
   "version": "0.1.0",
-  "summary": "A short description of SwiftyCommonMark.",
+  "summary": "A short description of SwiftyMarkdown.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hotchner/SwiftyCommonMark",
+  "homepage": "https://github.com/hotchner/SwiftyMarkdown",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "hotchner": "hongqima@yangqianguan.com"
   },
   "source": {
-    "git": "https://github.com/hotchner/SwiftyCommonMark.git",
+    "git": "https://github.com/hotchner/SwiftyMarkdown.git",
     "tag": "0.1.0"
   },
   "platforms": {

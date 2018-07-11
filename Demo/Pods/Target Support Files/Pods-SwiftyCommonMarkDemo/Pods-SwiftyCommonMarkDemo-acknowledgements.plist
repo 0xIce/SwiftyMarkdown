@@ -219,7 +219,7 @@
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>SwiftyCommonMark</string>
+			<string>SwiftyMarkdown</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

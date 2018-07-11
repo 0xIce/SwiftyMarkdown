@@ -1,16 +1,16 @@
 PODS:
-  - SwiftyCommonMark (0.1.0)
+  - SwiftyMarkdown (0.1.0)
 
 DEPENDENCIES:
-  - SwiftyCommonMark (from `../SwiftyCommonMark.podspec`)
+  - SwiftyMarkdown (from `../SwiftyMarkdown.podspec`)
 
 EXTERNAL SOURCES:
-  SwiftyCommonMark:
-    :path: "../SwiftyCommonMark.podspec"
+  SwiftyMarkdown:
+    :path: "../SwiftyMarkdown.podspec"
 
 SPEC CHECKSUMS:
-  SwiftyCommonMark: af3f1426b9e66e513cea02e06a124c500620af97
+  SwiftyMarkdown: 8c9ba9bdf1ecca92e8e0ffc40f890e55aaf6c655
 
-PODFILE CHECKSUM: d463600e309508bf3abebf9441ea795f632c020c
+PODFILE CHECKSUM: fabdd7ec441c11e3a00dda2c66d6baac3fd2b684
 
 COCOAPODS: 1.5.3
