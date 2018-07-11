@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D806184FFE80923FDC6E42D2FF4BAD /* SwiftyCommonMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B45D2E4550511248E6F31E7F3F390030 /* SwiftyCommonMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DF902962E27459AFCF6EE07166C212 /* SwiftyCommonMark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794F1B3749CA30D0A0641ECDE5F92DCD /* SwiftyCommonMark-dummy.m */; };
+		90B1A06C8C322DF10183FA60EE8F1D53 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CAF03CBC8ADB9C771A4B9C7576F041 /* ReplaceMe.swift */; };
+		ACF807BCB73D74403E684067FFACB4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C352DAC8362C5A4C572A9010FA1171D1 /* Pods-SwiftyCommonMarkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B531E103265329EFA4CD2EFFD8B2F /* Pods-SwiftyCommonMarkDemo-dummy.m */; };
+		CDFC58C979B099FFAD2926589CE23A07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D22FD95644AC93560B3A166274942BA5 /* Pods-SwiftyCommonMarkDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C25CCC2271209BA3ADDBE5750AF7931 /* Pods-SwiftyCommonMarkDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D72B826F49BD724062118F762F5F8F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036548A6946213E60A16E6FEBA7F16A4;
+			remoteInfo = SwiftyCommonMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003816A496AF92F444675EB53B2F841A /* SwiftyCommonMark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCommonMark.xcconfig; sourceTree = "<group>"; };
+		0AD85EFD1E405B93C1493D7DAB4D5952 /* SwiftyCommonMark.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftyCommonMark.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F1549E52F4C9A8AD11CB464259E7BF5 /* Pods-SwiftyCommonMarkDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyCommonMarkDemo.modulemap"; sourceTree = "<group>"; };
+		438C936B44DC52F211892892BF986EB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4644BEDF494BB1E86F8BA9DDE34F8608 /* Pods-SwiftyCommonMarkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCommonMarkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4F70271033B7963D66635E6F16FCDAFE /* SwiftyCommonMark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCommonMark-prefix.pch"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		742B531E103265329EFA4CD2EFFD8B2F /* Pods-SwiftyCommonMarkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyCommonMarkDemo-dummy.m"; sourceTree = "<group>"; };
+		794F1B3749CA30D0A0641ECDE5F92DCD /* SwiftyCommonMark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCommonMark-dummy.m"; sourceTree = "<group>"; };
+		84D367D9EB6A2C66A09EE1E84F78BE17 /* SwiftyCommonMark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCommonMark.modulemap; sourceTree = "<group>"; };
+		8AE1212835E0B52FFC13150B518B0B7A /* Pods-SwiftyCommonMarkDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyCommonMarkDemo-frameworks.sh"; sourceTree = "<group>"; };
+		93097B61EE7B751B3074794F69F23012 /* Pods-SwiftyCommonMarkDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyCommonMarkDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C25CCC2271209BA3ADDBE5750AF7931 /* Pods-SwiftyCommonMarkDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyCommonMarkDemo-umbrella.h"; sourceTree = "<group>"; };
+		A5E099BA26B2895AEC3985E14593734D /* Pods-SwiftyCommonMarkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyCommonMarkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A878FB681941D1E139EF4B3026B2B21A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AF7E8C7BE8FAC77F2A6521AC076363 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45D2E4550511248E6F31E7F3F390030 /* SwiftyCommonMark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCommonMark-umbrella.h"; sourceTree = "<group>"; };
+		B9C61F9F83FB7FF35FD8F75DC2BE10DA /* Pods-SwiftyCommonMarkDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyCommonMarkDemo-resources.sh"; sourceTree = "<group>"; };
+		C55DB9BAC4377863F9C8605DA9A4A283 /* SwiftyCommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCommonMark.framework; path = SwiftyCommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CAF03CBC8ADB9C771A4B9C7576F041 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DDF111D7B1B36924654A6D4CABFD5155 /* Pods-SwiftyCommonMarkDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyCommonMarkDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA37FF3EC5CBF13051EAB0E3B12EE858 /* Pods_SwiftyCommonMarkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyCommonMarkDemo.framework; path = "Pods-SwiftyCommonMarkDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9AF9247AED4F67D3C065DE871B1351 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4993EA15EDB597E05839F7A1B223E274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF807BCB73D74403E684067FFACB4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6A961BF7AA97E482DAB3CE372CEB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFC58C979B099FFAD2926589CE23A07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB571ABC5A603ACAE9A6C14DEC8D986 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D91C9DC3AD654F560FE7728C2B2382 /* SwiftyCommonMark */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5BB571ABC5A603ACAE9A6C14DEC8D986 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9E3397068CD6651EA3C7DD3E8C11526B /* Products */,
+				B3E6B9BE194041F177637D7E36027522 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83A70C73231FE970F87EF848A2C7FD8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF7E8C7BE8FAC77F2A6521AC076363 /* Info.plist */,
+				84D367D9EB6A2C66A09EE1E84F78BE17 /* SwiftyCommonMark.modulemap */,
+				003816A496AF92F444675EB53B2F841A /* SwiftyCommonMark.xcconfig */,
+				794F1B3749CA30D0A0641ECDE5F92DCD /* SwiftyCommonMark-dummy.m */,
+				4F70271033B7963D66635E6F16FCDAFE /* SwiftyCommonMark-prefix.pch */,
+				B45D2E4550511248E6F31E7F3F390030 /* SwiftyCommonMark-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/SwiftyCommonMark";
+			sourceTree = "<group>";
+		};
+		9E3397068CD6651EA3C7DD3E8C11526B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA37FF3EC5CBF13051EAB0E3B12EE858 /* Pods_SwiftyCommonMarkDemo.framework */,
+				C55DB9BAC4377863F9C8605DA9A4A283 /* SwiftyCommonMark.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E6B9BE194041F177637D7E36027522 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C46AD5E6E614F451DDD1F69D9088473C /* Pods-SwiftyCommonMarkDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46AD5E6E614F451DDD1F69D9088473C /* Pods-SwiftyCommonMarkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A878FB681941D1E139EF4B3026B2B21A /* Info.plist */,
+				1F1549E52F4C9A8AD11CB464259E7BF5 /* Pods-SwiftyCommonMarkDemo.modulemap */,
+				93097B61EE7B751B3074794F69F23012 /* Pods-SwiftyCommonMarkDemo-acknowledgements.markdown */,
+				DDF111D7B1B36924654A6D4CABFD5155 /* Pods-SwiftyCommonMarkDemo-acknowledgements.plist */,
+				742B531E103265329EFA4CD2EFFD8B2F /* Pods-SwiftyCommonMarkDemo-dummy.m */,
+				8AE1212835E0B52FFC13150B518B0B7A /* Pods-SwiftyCommonMarkDemo-frameworks.sh */,
+				B9C61F9F83FB7FF35FD8F75DC2BE10DA /* Pods-SwiftyCommonMarkDemo-resources.sh */,
+				9C25CCC2271209BA3ADDBE5750AF7931 /* Pods-SwiftyCommonMarkDemo-umbrella.h */,
+				A5E099BA26B2895AEC3985E14593734D /* Pods-SwiftyCommonMarkDemo.debug.xcconfig */,
+				4644BEDF494BB1E86F8BA9DDE34F8608 /* Pods-SwiftyCommonMarkDemo.release.xcconfig */,
+			);
+			name = "Pods-SwiftyCommonMarkDemo";
+			path = "Target Support Files/Pods-SwiftyCommonMarkDemo";
+			sourceTree = "<group>";
+		};
+		CCE6351DA62BFAFA122A8DB938B157A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				438C936B44DC52F211892892BF986EB6 /* LICENSE */,
+				FB9AF9247AED4F67D3C065DE871B1351 /* README.md */,
+				0AD85EFD1E405B93C1493D7DAB4D5952 /* SwiftyCommonMark.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E5D91C9DC3AD654F560FE7728C2B2382 /* SwiftyCommonMark */ = {
+			isa = PBXGroup;
+			children = (
+				D5CAF03CBC8ADB9C771A4B9C7576F041 /* ReplaceMe.swift */,
+				CCE6351DA62BFAFA122A8DB938B157A1 /* Pod */,
+				83A70C73231FE970F87EF848A2C7FD8B /* Support Files */,
+			);
+			name = SwiftyCommonMark;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96E85280321437779B65BDE3D001939F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D806184FFE80923FDC6E42D2FF4BAD /* SwiftyCommonMark-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48E715893D37227D7ECCF28F2F0BB13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22FD95644AC93560B3A166274942BA5 /* Pods-SwiftyCommonMarkDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		036548A6946213E60A16E6FEBA7F16A4 /* SwiftyCommonMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4589562250F67152E5F3BFE7FCF93A6 /* Build configuration list for PBXNativeTarget "SwiftyCommonMark" */;
+			buildPhases = (
+				7DDB653768D64193A683C575527492E4 /* Sources */,
+				4993EA15EDB597E05839F7A1B223E274 /* Frameworks */,
+				96E85280321437779B65BDE3D001939F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCommonMark;
+			productName = SwiftyCommonMark;
+			productReference = C55DB9BAC4377863F9C8605DA9A4A283 /* SwiftyCommonMark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CC70A6C421EFA27C844F8134AA5EF70 /* Pods-SwiftyCommonMarkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3AC6AFFF3A1BC32C85D77961F478097 /* Build configuration list for PBXNativeTarget "Pods-SwiftyCommonMarkDemo" */;
+			buildPhases = (
+				239A830C07873D626B094807A16BB794 /* Sources */,
+				5C6A961BF7AA97E482DAB3CE372CEB85 /* Frameworks */,
+				F48E715893D37227D7ECCF28F2F0BB13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB8906EA29F95AC997C6852F234DB55 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyCommonMarkDemo";
+			productName = "Pods-SwiftyCommonMarkDemo";
+			productReference = FA37FF3EC5CBF13051EAB0E3B12EE858 /* Pods_SwiftyCommonMarkDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9E3397068CD6651EA3C7DD3E8C11526B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC70A6C421EFA27C844F8134AA5EF70 /* Pods-SwiftyCommonMarkDemo */,
+				036548A6946213E60A16E6FEBA7F16A4 /* SwiftyCommonMark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		239A830C07873D626B094807A16BB794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C352DAC8362C5A4C572A9010FA1171D1 /* Pods-SwiftyCommonMarkDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDB653768D64193A683C575527492E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B1A06C8C322DF10183FA60EE8F1D53 /* ReplaceMe.swift in Sources */,
+				83DF902962E27459AFCF6EE07166C212 /* SwiftyCommonMark-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB8906EA29F95AC997C6852F234DB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCommonMark;
+			target = 036548A6946213E60A16E6FEBA7F16A4 /* SwiftyCommonMark */;
+			targetProxy = D72B826F49BD724062118F762F5F8F2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F1AB926206B15A50E5696A1021063B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4644BEDF494BB1E86F8BA9DDE34F8608 /* Pods-SwiftyCommonMarkDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyCommonMarkDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyCommonMarkDemo/Pods-SwiftyCommonMarkDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3F27BDB6F542FB97D7B68C9D74E8078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E099BA26B2895AEC3985E14593734D /* Pods-SwiftyCommonMarkDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyCommonMarkDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyCommonMarkDemo/Pods-SwiftyCommonMarkDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBAF0B76F56DE3DB27E46EDD1F782F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003816A496AF92F444675EB53B2F841A /* SwiftyCommonMark.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCommonMark/SwiftyCommonMark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCommonMark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyCommonMark/SwiftyCommonMark.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCommonMark;
+				PRODUCT_NAME = SwiftyCommonMark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FEC21DFE82E931CBF029BC32A3D6D45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003816A496AF92F444675EB53B2F841A /* SwiftyCommonMark.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCommonMark/SwiftyCommonMark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCommonMark/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyCommonMark/SwiftyCommonMark.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCommonMark;
+				PRODUCT_NAME = SwiftyCommonMark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4589562250F67152E5F3BFE7FCF93A6 /* Build configuration list for PBXNativeTarget "SwiftyCommonMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAF0B76F56DE3DB27E46EDD1F782F00 /* Debug */,
+				FEC21DFE82E931CBF029BC32A3D6D45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3AC6AFFF3A1BC32C85D77961F478097 /* Build configuration list for PBXNativeTarget "Pods-SwiftyCommonMarkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F27BDB6F542FB97D7B68C9D74E8078 /* Debug */,
+				4F1AB926206B15A50E5696A1021063B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

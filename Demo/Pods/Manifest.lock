@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCommonMark (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyCommonMark (from `../SwiftyCommonMark.podspec`)
+
+EXTERNAL SOURCES:
+  SwiftyCommonMark:
+    :path: "../SwiftyCommonMark.podspec"
+
+SPEC CHECKSUMS:
+  SwiftyCommonMark: af3f1426b9e66e513cea02e06a124c500620af97
+
+PODFILE CHECKSUM: d463600e309508bf3abebf9441ea795f632c020c
+
+COCOAPODS: 1.5.3

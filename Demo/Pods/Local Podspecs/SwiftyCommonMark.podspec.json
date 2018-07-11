@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyCommonMark",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyCommonMark.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hotchner/SwiftyCommonMark",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hotchner": "hongqima@yangqianguan.com"
+  },
+  "source": {
+    "git": "https://github.com/hotchner/SwiftyCommonMark.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Classes/**/*"
+}
