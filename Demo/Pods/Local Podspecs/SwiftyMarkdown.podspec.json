@@ -2,14 +2,13 @@
   "name": "SwiftyMarkdown",
   "version": "0.1.0",
   "summary": "A short description of SwiftyMarkdown.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/hotchner/SwiftyMarkdown",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "hotchner": "hongqima@yangqianguan.com"
+    "hotchner": "hotchner.tk"
   },
   "source": {
     "git": "https://github.com/hotchner/SwiftyMarkdown.git",
@@ -18,5 +17,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Classes/**/*"
+  "source_files": "Sources/**/*",
+  "requires_arc": true,
+  "module_name": "SwiftyMarkdown",
+  "preserve_paths": "Sources/cmark/module.modulemap",
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(SRCROOT)/Sources/cmark/**"
+  }
 }

@@ -7,58 +7,218 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D94798CDAA01FFC16D66B8458804F42 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BC0EBDAE14E89E57D584378BDA3116 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDF3837EEB15A3B7C67D4F081698ABF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E00518BBF4441DFD0B073F4BBC2DE7BA /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297CC1D72EFE436360CFBB898F8CB2E /* Pods-Demo-dummy.m */; };
+		004E42EF55552BDACAF1138C2650095A /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = DEDA2127ACC7A5864E3FBB05EBBF78AB /* scanners.c */; };
+		0634810DDE64DEBEA4972F0EA0F6B79E /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 209DA115A46BEEF18E5FB2C357E440C0 /* references.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C1AB1956811BC814B613A49A002FB5 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1A5C746D1AF2E98E10DBBA799F7559 /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A113ABB88C319D07CE7E474A2DBF411 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65FD0115A99718329CAF1A58EAB03 /* references.c */; };
+		0DE5DD52A3BB5CE2A5860D0B99468512 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 345F0C141FC57CB37C590E788C7D3679 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10DA4987CE74A74034FE3E6739560C39 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 892A46644461D4837E88E0D5C57CFC15 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC7763C06F69B872F3A3BEE6FE837CC /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA9D3DF8564D496ECE3E512269984EE /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2385F2F59A8653E9E99FE796D1E3A960 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BC0EBDAE14E89E57D584378BDA3116 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D64702A30EF6B0B8F681777DF5D9FE /* cmark_version.h.in in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABF99547661319B0F7054753F6A36 /* cmark_version.h.in */; };
+		2874B7D2342A72A18CD8686C325464D8 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = B92FD61814F7E69A380B7E99E8076A67 /* html.c */; };
+		318737B3F8CD8635DD690B8360DF2831 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D7BA4802C7FCCA21CCED94227167EE /* cmark_ctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BA3BD2644AE57035B5D5E9974C17C4 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = A05249EDAC5BB8613ACEAD564B782A75 /* houdini_html_e.c */; };
+		38C268DD3845A23727B1DA9617F8A5BC /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0917CBBC149B735FC4A525A1ECF36822 /* latex.c */; };
+		40FAB33A12A828D73B1A62E957C61F96 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = B89FDD5A22736BB2A57507D8A438AD9F /* houdini_href_e.c */; };
+		4686963CF9538CC8058C8DCED4E6C88D /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 61583BE62A54A77FBA0EEFACB064052D /* module.modulemap */; };
+		5177FE00854884EF2822C2CB8D500C89 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297CC1D72EFE436360CFBB898F8CB2E /* Pods-Demo-dummy.m */; };
+		566A611862B5A61CF9C1FDC0CA28FA49 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 9183EE05BA4227BC0FD1AA445EBBDF36 /* xml.c */; };
+		6470F97ACF2133B80E7906ADC7BB0D98 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 8129571003B882EBBF528C5499ACAB3E /* houdini_html_u.c */; };
+		671BFAF8D015F0729C6AEC98C39F4EF4 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E96D630DF268FE4CBE945148BA4EFC8 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709387E3985F5D2A7598DE29ECC7EF7E /* SwiftyMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B27048A363666749ACD5566988C24164 /* SwiftyMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E5871D7334476702BE573BC81389B8 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = B70636D8A8FA80022F3A59D9C885CEE5 /* man.c */; };
+		7303ADB1A4E989390CA6B7A45DF70362 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 82F4F6003865B12F2E8C6496488CEC08 /* case_fold_switch.inc */; };
+		73BA1FD7131FFCC617F39B63CB6B7B2A /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = AF7B4FB79ADE2E34BA397DD7F95A8562 /* CMakeLists.txt */; };
+		74B35C8587015D2BC3393CF9C7718582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		76850AD46B39C76C02466D985942EE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7F1F0EFC3512741EAFEAD915DAD9778A /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 3394B4B0357F806C699665705843BB61 /* utf8.c */; };
+		81AA2D9F6A8EC8847188A17A7DE2C476 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF96B29619863A57BBA4F9D9E26A940 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		858A0740C12A21B717C8EF31C427B84E /* config.h.in in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD672F10E450CD869CF7F330BE1B94 /* config.h.in */; };
+		96E359D911C386DD48A5DB5708DD1A5A /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = BBB4BFEDA2CC6E646F1DC5A1A1026949 /* inlines.c */; };
+		96EA2C33005F319529EB8E5219215B7E /* SwiftyMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AB3D1C0E1EE12B5787A1613720AC6D /* SwiftyMarkdown-dummy.m */; };
+		9751883B149EA28A6BBD95C2E1241FA1 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 59DD2F1D36B4D4B29DFFD6A98B521FFF /* buffer.c */; };
+		97FDDEAC0DEDB1DBE9C3ABBBB64F5AEE /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 36099DD0C74E96C47C549F3BFD6C03B9 /* render.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A137018818238B8FC378AD69B591C93F /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 498C994FB909A17D12767EB36DDC2C96 /* render.c */; };
+		A5756BC545D880A6F17424BD2547A2E2 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 0294A1423111D038EABBBCB191414842 /* scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF50D5B028130329073C7B3419FF374 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE62A6581D71C4BFFE26DAB40F02C /* iterator.c */; };
+		BE0CA60111F2A7D5E6AF6E09946F6406 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = B745BEF4A14777564A732A6C612AA3B3 /* blocks.c */; };
+		C386C59DC1F024DBE914176F518221AA /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = C0EF00E3A5E691963F26900185870CDC /* entities.inc */; };
+		C75E1AEFD06EEAEA5818142D3E2B4DF4 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC020D064917FD46283895792C75977 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFEF45C6F13DA6B3429E2729F3AFAA88 /* libcmark.pc.in in Sources */ = {isa = PBXBuildFile; fileRef = F12B44B8861C911F4B3007D93EFCC323 /* libcmark.pc.in */; };
+		D3662FCC928CF43E6C9345B530AA980C /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A544B427DCCDD3052052625878CA53C /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB25D5AF39DB68CB0959324214A84B7 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = E167EB818ED851FE51CB68A4BAA60547 /* node.c */; };
+		EB8175474B531DC26A18862BF1615530 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7595A07F21AAD7C9CF8944D9270C8E /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6CFB1420B92C663E5BCD090FE057AF /* scanners.re in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB40CC0F380FA6D88F13CB375B9DF3 /* scanners.re */; };
+		EE8D394B68CD1B56FE0427C9B3F413F6 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 44762E1D77B655F6EBF735C2EE6410B9 /* commonmark.c */; };
+		F18FD61CDBCED99714B406B84456F10B /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 557292DFD770E5BBC5D67AA4A13DFBAC /* chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87002AE390D32C0DD0D8AB5F943FE10 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B3162A243F7E99D8879FA7064126AF98 /* main.c */; };
+		F92EF984916DFA26BBEBF73F764BB4D1 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7170875EF66B5483E620D5BB7662E /* cmark_ctype.c */; };
+		F97CF7499D0B4EB430421D92E2BE0F39 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D03F14537936D420876FE962F3CC854 /* cmark.c */; };
+		F9A368DC7BE17997A6AD50B784A934A2 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = B04B6D2272E732AEAD716724574F3A01 /* inlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDFF97A50BDA174FC9C2F436E180D99 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF56D5213B095153D738076621A9005 /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		035154AD89A0ABEEB4F7BF12BECB066E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22238E69412D5F0284251A1920CCB86;
+			remoteInfo = SwiftyMarkdown;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		01D7BA4802C7FCCA21CCED94227167EE /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = Sources/cmark/cmark_ctype.h; sourceTree = "<group>"; };
+		0294A1423111D038EABBBCB191414842 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = Sources/cmark/scanners.h; sourceTree = "<group>"; };
+		04A0C435071D71ECDF3FB4D924FB0C72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		04A993CDEEB31A37C2E08DA333D07D93 /* SwiftyMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyMarkdown.framework; path = SwiftyMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0917CBBC149B735FC4A525A1ECF36822 /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = latex.c; path = Sources/cmark/latex.c; sourceTree = "<group>"; };
+		0CF56D5213B095153D738076621A9005 /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = Sources/cmark/cmark_export.h; sourceTree = "<group>"; };
+		0FF65FD0115A99718329CAF1A58EAB03 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; name = references.c; path = Sources/cmark/references.c; sourceTree = "<group>"; };
 		1297CC1D72EFE436360CFBB898F8CB2E /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
 		1965FF76BB91163730C384D7B1E2C4FB /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		1A544B427DCCDD3052052625878CA53C /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark.h; path = Sources/cmark/cmark.h; sourceTree = "<group>"; };
+		209DA115A46BEEF18E5FB2C357E440C0 /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = references.h; path = Sources/cmark/references.h; sourceTree = "<group>"; };
 		275C17A46F39C36327493626A168B6D5 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		27BC0EBDAE14E89E57D584378BDA3116 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
 		282ECFCD0084F94EC1DED9401AAFE7F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC7170875EF66B5483E620D5BB7662E /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark_ctype.c; path = Sources/cmark/cmark_ctype.c; sourceTree = "<group>"; };
+		2EA9D3DF8564D496ECE3E512269984EE /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = Sources/cmark/node.h; sourceTree = "<group>"; };
+		3394B4B0357F806C699665705843BB61 /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf8.c; path = Sources/cmark/utf8.c; sourceTree = "<group>"; };
+		345F0C141FC57CB37C590E788C7D3679 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = Sources/cmark/utf8.h; sourceTree = "<group>"; };
+		35BF2CFDEF878A6C2F1C890027A8969B /* SwiftyMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftyMarkdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36099DD0C74E96C47C549F3BFD6C03B9 /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = Sources/cmark/render.h; sourceTree = "<group>"; };
+		39AB3D1C0E1EE12B5787A1613720AC6D /* SwiftyMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMarkdown-dummy.m"; sourceTree = "<group>"; };
+		3DAD672F10E450CD869CF7F330BE1B94 /* config.h.in */ = {isa = PBXFileReference; includeInIndex = 1; name = config.h.in; path = Sources/cmark/config.h.in; sourceTree = "<group>"; };
+		4180F700B5D6130F363AF3CA7119FC75 /* SwiftyMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMarkdown.xcconfig; sourceTree = "<group>"; };
+		44762E1D77B655F6EBF735C2EE6410B9 /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = commonmark.c; path = Sources/cmark/commonmark.c; sourceTree = "<group>"; };
+		48FB4C2065372DE25FC5D6D21372A08D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		498C994FB909A17D12767EB36DDC2C96 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; name = render.c; path = Sources/cmark/render.c; sourceTree = "<group>"; };
+		557292DFD770E5BBC5D67AA4A13DFBAC /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = Sources/cmark/chunk.h; sourceTree = "<group>"; };
+		59DD2F1D36B4D4B29DFFD6A98B521FFF /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer.c; path = Sources/cmark/buffer.c; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EFCFC4782B9646B842EB839A267D7AA /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		6D7C866C80CE2D736B5C8E1068EFCAE8 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61583BE62A54A77FBA0EEFACB064052D /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = Sources/cmark/module.modulemap; sourceTree = "<group>"; };
+		6E96D630DF268FE4CBE945148BA4EFC8 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = Sources/cmark/houdini.h; sourceTree = "<group>"; };
+		6EBB40CC0F380FA6D88F13CB375B9DF3 /* scanners.re */ = {isa = PBXFileReference; includeInIndex = 1; name = scanners.re; path = Sources/cmark/scanners.re; sourceTree = "<group>"; };
 		7A01701031823CCAC30B58767A21D8A4 /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		81CDC6609BFA90AADFC7B822CFD21BB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7D03F14537936D420876FE962F3CC854 /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark.c; path = Sources/cmark/cmark.c; sourceTree = "<group>"; };
+		8129571003B882EBBF528C5499ACAB3E /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_u.c; path = Sources/cmark/houdini_html_u.c; sourceTree = "<group>"; };
+		82F4F6003865B12F2E8C6496488CEC08 /* case_fold_switch.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = case_fold_switch.inc; path = Sources/cmark/case_fold_switch.inc; sourceTree = "<group>"; };
+		85AAE62A6581D71C4BFFE26DAB40F02C /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.c; path = Sources/cmark/iterator.c; sourceTree = "<group>"; };
+		892A46644461D4837E88E0D5C57CFC15 /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_version.h; path = Sources/cmark/cmark_version.h; sourceTree = "<group>"; };
+		8CB2191621DCB8803E159E0E34F4F4C9 /* SwiftyMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMarkdown.modulemap; sourceTree = "<group>"; };
 		9154BF16DC759A1EDD6A1AB4E22AA07D /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9183EE05BA4227BC0FD1AA445EBBDF36 /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xml.c; path = Sources/cmark/xml.c; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05249EDAC5BB8613ACEAD564B782A75 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_e.c; path = Sources/cmark/houdini_html_e.c; sourceTree = "<group>"; };
 		A293EC6905CD2F770F31A1A57ACA0633 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9ABF99547661319B0F7054753F6A36 /* cmark_version.h.in */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark_version.h.in; path = Sources/cmark/cmark_version.h.in; sourceTree = "<group>"; };
+		AF7B4FB79ADE2E34BA397DD7F95A8562 /* CMakeLists.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = CMakeLists.txt; path = Sources/cmark/CMakeLists.txt; sourceTree = "<group>"; };
+		B04B6D2272E732AEAD716724574F3A01 /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = Sources/cmark/inlines.h; sourceTree = "<group>"; };
+		B27048A363666749ACD5566988C24164 /* SwiftyMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		B3162A243F7E99D8879FA7064126AF98 /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; name = main.c; path = Sources/cmark/main.c; sourceTree = "<group>"; };
+		B70636D8A8FA80022F3A59D9C885CEE5 /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; name = man.c; path = Sources/cmark/man.c; sourceTree = "<group>"; };
+		B745BEF4A14777564A732A6C612AA3B3 /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blocks.c; path = Sources/cmark/blocks.c; sourceTree = "<group>"; };
+		B89FDD5A22736BB2A57507D8A438AD9F /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_href_e.c; path = Sources/cmark/houdini_href_e.c; sourceTree = "<group>"; };
+		B92FD61814F7E69A380B7E99E8076A67 /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; name = html.c; path = Sources/cmark/html.c; sourceTree = "<group>"; };
+		BBB4BFEDA2CC6E646F1DC5A1A1026949 /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inlines.c; path = Sources/cmark/inlines.c; sourceTree = "<group>"; };
+		BCC020D064917FD46283895792C75977 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = Sources/cmark/config.h; sourceTree = "<group>"; };
+		C0EF00E3A5E691963F26900185870CDC /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = entities.inc; path = Sources/cmark/entities.inc; sourceTree = "<group>"; };
+		C3AEFF287A2784DF92E89F30E2604A35 /* SwiftyMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-prefix.pch"; sourceTree = "<group>"; };
+		C9BEFA1FE7A4048BDF6A0ACEF42A7991 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF96B29619863A57BBA4F9D9E26A940 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = Sources/cmark/buffer.h; sourceTree = "<group>"; };
+		DEDA2127ACC7A5864E3FBB05EBBF78AB /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanners.c; path = Sources/cmark/scanners.c; sourceTree = "<group>"; };
+		E167EB818ED851FE51CB68A4BAA60547 /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; name = node.c; path = Sources/cmark/node.c; sourceTree = "<group>"; };
 		EB2BD00EE3F4FBA187EE15A5C9968F90 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		EC2C1507E331AC9F3C03B367E048DF11 /* SwiftyMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftyMarkdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F1C45F0F0C370106F289B18064889B87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB7595A07F21AAD7C9CF8944D9270C8E /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = Sources/cmark/parser.h; sourceTree = "<group>"; };
+		EE1A5C746D1AF2E98E10DBBA799F7559 /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = Sources/cmark/iterator.h; sourceTree = "<group>"; };
+		F12B44B8861C911F4B3007D93EFCC323 /* libcmark.pc.in */ = {isa = PBXFileReference; includeInIndex = 1; name = libcmark.pc.in; path = Sources/cmark/libcmark.pc.in; sourceTree = "<group>"; };
+		F7B09129199BB791ED5150A256C60581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0619BB433ED11BEADD59BA7C2CFED68D /* Frameworks */ = {
+		2C04BF44293AA8923A5811BC6AAFBF2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF3837EEB15A3B7C67D4F081698ABF0 /* Foundation.framework in Frameworks */,
+				76850AD46B39C76C02466D985942EE2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27E19AEAD2E876F9DDA08DC3A14CBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B35C8587015D2BC3393CF9C7718582 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		075C9ABDED0D9A4A27285BB4F0D01753 /* Products */ = {
+		03DBEA415798EE1F5C41AA22A179E02D /* SwiftyMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				6D7C866C80CE2D736B5C8E1068EFCAE8 /* Pods_Demo.framework */,
+				B745BEF4A14777564A732A6C612AA3B3 /* blocks.c */,
+				59DD2F1D36B4D4B29DFFD6A98B521FFF /* buffer.c */,
+				CFF96B29619863A57BBA4F9D9E26A940 /* buffer.h */,
+				82F4F6003865B12F2E8C6496488CEC08 /* case_fold_switch.inc */,
+				557292DFD770E5BBC5D67AA4A13DFBAC /* chunk.h */,
+				AF7B4FB79ADE2E34BA397DD7F95A8562 /* CMakeLists.txt */,
+				7D03F14537936D420876FE962F3CC854 /* cmark.c */,
+				1A544B427DCCDD3052052625878CA53C /* cmark.h */,
+				2CC7170875EF66B5483E620D5BB7662E /* cmark_ctype.c */,
+				01D7BA4802C7FCCA21CCED94227167EE /* cmark_ctype.h */,
+				0CF56D5213B095153D738076621A9005 /* cmark_export.h */,
+				892A46644461D4837E88E0D5C57CFC15 /* cmark_version.h */,
+				AD9ABF99547661319B0F7054753F6A36 /* cmark_version.h.in */,
+				44762E1D77B655F6EBF735C2EE6410B9 /* commonmark.c */,
+				BCC020D064917FD46283895792C75977 /* config.h */,
+				3DAD672F10E450CD869CF7F330BE1B94 /* config.h.in */,
+				C0EF00E3A5E691963F26900185870CDC /* entities.inc */,
+				6E96D630DF268FE4CBE945148BA4EFC8 /* houdini.h */,
+				B89FDD5A22736BB2A57507D8A438AD9F /* houdini_href_e.c */,
+				A05249EDAC5BB8613ACEAD564B782A75 /* houdini_html_e.c */,
+				8129571003B882EBBF528C5499ACAB3E /* houdini_html_u.c */,
+				B92FD61814F7E69A380B7E99E8076A67 /* html.c */,
+				BBB4BFEDA2CC6E646F1DC5A1A1026949 /* inlines.c */,
+				B04B6D2272E732AEAD716724574F3A01 /* inlines.h */,
+				85AAE62A6581D71C4BFFE26DAB40F02C /* iterator.c */,
+				EE1A5C746D1AF2E98E10DBBA799F7559 /* iterator.h */,
+				0917CBBC149B735FC4A525A1ECF36822 /* latex.c */,
+				F12B44B8861C911F4B3007D93EFCC323 /* libcmark.pc.in */,
+				B3162A243F7E99D8879FA7064126AF98 /* main.c */,
+				B70636D8A8FA80022F3A59D9C885CEE5 /* man.c */,
+				61583BE62A54A77FBA0EEFACB064052D /* module.modulemap */,
+				E167EB818ED851FE51CB68A4BAA60547 /* node.c */,
+				2EA9D3DF8564D496ECE3E512269984EE /* node.h */,
+				EB7595A07F21AAD7C9CF8944D9270C8E /* parser.h */,
+				0FF65FD0115A99718329CAF1A58EAB03 /* references.c */,
+				209DA115A46BEEF18E5FB2C357E440C0 /* references.h */,
+				498C994FB909A17D12767EB36DDC2C96 /* render.c */,
+				36099DD0C74E96C47C549F3BFD6C03B9 /* render.h */,
+				DEDA2127ACC7A5864E3FBB05EBBF78AB /* scanners.c */,
+				0294A1423111D038EABBBCB191414842 /* scanners.h */,
+				6EBB40CC0F380FA6D88F13CB375B9DF3 /* scanners.re */,
+				3394B4B0357F806C699665705843BB61 /* utf8.c */,
+				345F0C141FC57CB37C590E788C7D3679 /* utf8.h */,
+				9183EE05BA4227BC0FD1AA445EBBDF36 /* xml.c */,
+				DF4FA7CFAD44BB2A5A5C11EC3392A1E2 /* Pod */,
+				F97A74AADCEAEA0F633E21A11F69A934 /* Support Files */,
 			);
-			name = Products;
+			name = SwiftyMarkdown;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		134E805F1A8F02A7FAD79C9F08BDE700 /* Pod */ = {
+		20C4DA3EC6D490CEE659C71445A65CE4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81CDC6609BFA90AADFC7B822CFD21BB0 /* LICENSE */,
-				F1C45F0F0C370106F289B18064889B87 /* README.md */,
-				EC2C1507E331AC9F3C03B367E048DF11 /* SwiftyMarkdown.podspec */,
+				03DBEA415798EE1F5C41AA22A179E02D /* SwiftyMarkdown */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -81,19 +241,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9089D2AA4E25532C8C23B0FF689CF397 /* Development Pods */,
+				20C4DA3EC6D490CEE659C71445A65CE4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				075C9ABDED0D9A4A27285BB4F0D01753 /* Products */,
+				D1DA521B77209F85334BAD1BC23C0948 /* Products */,
 				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9089D2AA4E25532C8C23B0FF689CF397 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DA22BD8EF803D2B2B86884C24FB9D74E /* SwiftyMarkdown */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -122,44 +274,110 @@
 			path = "Target Support Files/Pods-Demo";
 			sourceTree = "<group>";
 		};
-		DA22BD8EF803D2B2B86884C24FB9D74E /* SwiftyMarkdown */ = {
+		D1DA521B77209F85334BAD1BC23C0948 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134E805F1A8F02A7FAD79C9F08BDE700 /* Pod */,
+				C9BEFA1FE7A4048BDF6A0ACEF42A7991 /* Pods_Demo.framework */,
+				04A993CDEEB31A37C2E08DA333D07D93 /* SwiftyMarkdown.framework */,
 			);
-			name = SwiftyMarkdown;
-			path = ../..;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4FA7CFAD44BB2A5A5C11EC3392A1E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				48FB4C2065372DE25FC5D6D21372A08D /* LICENSE */,
+				04A0C435071D71ECDF3FB4D924FB0C72 /* README.md */,
+				35BF2CFDEF878A6C2F1C890027A8969B /* SwiftyMarkdown.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F97A74AADCEAEA0F633E21A11F69A934 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7B09129199BB791ED5150A256C60581 /* Info.plist */,
+				8CB2191621DCB8803E159E0E34F4F4C9 /* SwiftyMarkdown.modulemap */,
+				4180F700B5D6130F363AF3CA7119FC75 /* SwiftyMarkdown.xcconfig */,
+				39AB3D1C0E1EE12B5787A1613720AC6D /* SwiftyMarkdown-dummy.m */,
+				C3AEFF287A2784DF92E89F30E2604A35 /* SwiftyMarkdown-prefix.pch */,
+				B27048A363666749ACD5566988C24164 /* SwiftyMarkdown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/SwiftyMarkdown";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		626115375A712F0E79D797633B20D9AE /* Headers */ = {
+		067D4C1A338BFBBC6D1D63FF35F0A970 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D94798CDAA01FFC16D66B8458804F42 /* Pods-Demo-umbrella.h in Headers */,
+				2385F2F59A8653E9E99FE796D1E3A960 /* Pods-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3A894C586E285E73E55FC11BAA381E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AA2D9F6A8EC8847188A17A7DE2C476 /* buffer.h in Headers */,
+				F18FD61CDBCED99714B406B84456F10B /* chunk.h in Headers */,
+				D3662FCC928CF43E6C9345B530AA980C /* cmark.h in Headers */,
+				318737B3F8CD8635DD690B8360DF2831 /* cmark_ctype.h in Headers */,
+				FFDFF97A50BDA174FC9C2F436E180D99 /* cmark_export.h in Headers */,
+				10DA4987CE74A74034FE3E6739560C39 /* cmark_version.h in Headers */,
+				C75E1AEFD06EEAEA5818142D3E2B4DF4 /* config.h in Headers */,
+				671BFAF8D015F0729C6AEC98C39F4EF4 /* houdini.h in Headers */,
+				F9A368DC7BE17997A6AD50B784A934A2 /* inlines.h in Headers */,
+				08C1AB1956811BC814B613A49A002FB5 /* iterator.h in Headers */,
+				1DC7763C06F69B872F3A3BEE6FE837CC /* node.h in Headers */,
+				EB8175474B531DC26A18862BF1615530 /* parser.h in Headers */,
+				0634810DDE64DEBEA4972F0EA0F6B79E /* references.h in Headers */,
+				97FDDEAC0DEDB1DBE9C3ABBBB64F5AEE /* render.h in Headers */,
+				A5756BC545D880A6F17424BD2547A2E2 /* scanners.h in Headers */,
+				709387E3985F5D2A7598DE29ECC7EF7E /* SwiftyMarkdown-umbrella.h in Headers */,
+				0DE5DD52A3BB5CE2A5860D0B99468512 /* utf8.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E582E9167B3EFFF19FA430D3FCC2AB25 /* Pods-Demo */ = {
+		736E6B25A978DEA1FF4D6F415CBB3DF8 /* Pods-Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279189CDE3522A9B4E228AA6608AAD88 /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildConfigurationList = 206B5D72DC59958973826CB106BA55C8 /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
 			buildPhases = (
-				A13B13284BD6E351CF73B291AE3EBD44 /* Sources */,
-				0619BB433ED11BEADD59BA7C2CFED68D /* Frameworks */,
-				626115375A712F0E79D797633B20D9AE /* Headers */,
+				BEE2DB1FA1FD3339AC676DB1181CA916 /* Sources */,
+				D27E19AEAD2E876F9DDA08DC3A14CBD2 /* Frameworks */,
+				067D4C1A338BFBBC6D1D63FF35F0A970 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D70EE5EB2B6C50BE1E072D2CAE77A3C /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = C9BEFA1FE7A4048BDF6A0ACEF42A7991 /* Pods_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C22238E69412D5F0284251A1920CCB86 /* SwiftyMarkdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F569CD6C3D33D7C160D9E11DF5455B /* Build configuration list for PBXNativeTarget "SwiftyMarkdown" */;
+			buildPhases = (
+				A861C8A4016ABC1ACE55937507C1BD77 /* Sources */,
+				2C04BF44293AA8923A5811BC6AAFBF2D /* Frameworks */,
+				0B3A894C586E285E73E55FC11BAA381E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Demo";
-			productName = "Pods-Demo";
-			productReference = 6D7C866C80CE2D736B5C8E1068EFCAE8 /* Pods_Demo.framework */;
+			name = SwiftyMarkdown;
+			productName = SwiftyMarkdown;
+			productReference = 04A993CDEEB31A37C2E08DA333D07D93 /* SwiftyMarkdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -179,25 +397,71 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 075C9ABDED0D9A4A27285BB4F0D01753 /* Products */;
+			productRefGroup = D1DA521B77209F85334BAD1BC23C0948 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E582E9167B3EFFF19FA430D3FCC2AB25 /* Pods-Demo */,
+				736E6B25A978DEA1FF4D6F415CBB3DF8 /* Pods-Demo */,
+				C22238E69412D5F0284251A1920CCB86 /* SwiftyMarkdown */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A13B13284BD6E351CF73B291AE3EBD44 /* Sources */ = {
+		A861C8A4016ABC1ACE55937507C1BD77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00518BBF4441DFD0B073F4BBC2DE7BA /* Pods-Demo-dummy.m in Sources */,
+				BE0CA60111F2A7D5E6AF6E09946F6406 /* blocks.c in Sources */,
+				9751883B149EA28A6BBD95C2E1241FA1 /* buffer.c in Sources */,
+				7303ADB1A4E989390CA6B7A45DF70362 /* case_fold_switch.inc in Sources */,
+				73BA1FD7131FFCC617F39B63CB6B7B2A /* CMakeLists.txt in Sources */,
+				F97CF7499D0B4EB430421D92E2BE0F39 /* cmark.c in Sources */,
+				F92EF984916DFA26BBEBF73F764BB4D1 /* cmark_ctype.c in Sources */,
+				24D64702A30EF6B0B8F681777DF5D9FE /* cmark_version.h.in in Sources */,
+				EE8D394B68CD1B56FE0427C9B3F413F6 /* commonmark.c in Sources */,
+				858A0740C12A21B717C8EF31C427B84E /* config.h.in in Sources */,
+				C386C59DC1F024DBE914176F518221AA /* entities.inc in Sources */,
+				40FAB33A12A828D73B1A62E957C61F96 /* houdini_href_e.c in Sources */,
+				37BA3BD2644AE57035B5D5E9974C17C4 /* houdini_html_e.c in Sources */,
+				6470F97ACF2133B80E7906ADC7BB0D98 /* houdini_html_u.c in Sources */,
+				2874B7D2342A72A18CD8686C325464D8 /* html.c in Sources */,
+				96E359D911C386DD48A5DB5708DD1A5A /* inlines.c in Sources */,
+				ADF50D5B028130329073C7B3419FF374 /* iterator.c in Sources */,
+				38C268DD3845A23727B1DA9617F8A5BC /* latex.c in Sources */,
+				CFEF45C6F13DA6B3429E2729F3AFAA88 /* libcmark.pc.in in Sources */,
+				F87002AE390D32C0DD0D8AB5F943FE10 /* main.c in Sources */,
+				71E5871D7334476702BE573BC81389B8 /* man.c in Sources */,
+				4686963CF9538CC8058C8DCED4E6C88D /* module.modulemap in Sources */,
+				DBB25D5AF39DB68CB0959324214A84B7 /* node.c in Sources */,
+				0A113ABB88C319D07CE7E474A2DBF411 /* references.c in Sources */,
+				A137018818238B8FC378AD69B591C93F /* render.c in Sources */,
+				004E42EF55552BDACAF1138C2650095A /* scanners.c in Sources */,
+				EE6CFB1420B92C663E5BCD090FE057AF /* scanners.re in Sources */,
+				96EA2C33005F319529EB8E5219215B7E /* SwiftyMarkdown-dummy.m in Sources */,
+				7F1F0EFC3512741EAFEAD915DAD9778A /* utf8.c in Sources */,
+				566A611862B5A61CF9C1FDC0CA28FA49 /* xml.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE2DB1FA1FD3339AC676DB1181CA916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5177FE00854884EF2822C2CB8D500C89 /* Pods-Demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D70EE5EB2B6C50BE1E072D2CAE77A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyMarkdown;
+			target = C22238E69412D5F0284251A1920CCB86 /* SwiftyMarkdown */;
+			targetProxy = 035154AD89A0ABEEB4F7BF12BECB066E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
@@ -263,7 +527,44 @@
 			};
 			name = Debug;
 		};
-		64C6AED9CDD7FBDF31196BDF98AF9165 /* Release */ = {
+		33CEBC2AF0C9261625563926345A841A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A293EC6905CD2F770F31A1A57ACA0633 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		689DBFE758AD705272718E7290B56537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 275C17A46F39C36327493626A168B6D5 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
@@ -301,11 +602,10 @@
 			};
 			name = Release;
 		};
-		695D16957C08E2DEAF0B15C868F0A921 /* Debug */ = {
+		C4D5B9F80A4FD3DE5FDDE577C2FAF310 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A293EC6905CD2F770F31A1A57ACA0633 /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = 4180F700B5D6130F363AF3CA7119FC75 /* SwiftyMarkdown.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -315,7 +615,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMarkdown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,15 +624,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMarkdown;
+				PRODUCT_NAME = SwiftyMarkdown;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -396,14 +695,50 @@
 			};
 			name = Release;
 		};
+		FF556C2D5E38AFCDF31107924CD53AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4180F700B5D6130F363AF3CA7119FC75 /* SwiftyMarkdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMarkdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMarkdown;
+				PRODUCT_NAME = SwiftyMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		279189CDE3522A9B4E228AA6608AAD88 /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+		206B5D72DC59958973826CB106BA55C8 /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				695D16957C08E2DEAF0B15C868F0A921 /* Debug */,
-				64C6AED9CDD7FBDF31196BDF98AF9165 /* Release */,
+				33CEBC2AF0C9261625563926345A841A /* Debug */,
+				689DBFE758AD705272718E7290B56537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -413,6 +748,15 @@
 			buildConfigurations = (
 				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
 				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F569CD6C3D33D7C160D9E11DF5455B /* Build configuration list for PBXNativeTarget "SwiftyMarkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D5B9F80A4FD3DE5FDDE577C2FAF310 /* Debug */,
+				FF556C2D5E38AFCDF31107924CD53AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../SwiftyMarkdown.podspec"
 
 SPEC CHECKSUMS:
-  SwiftyMarkdown: 8c9ba9bdf1ecca92e8e0ffc40f890e55aaf6c655
+  SwiftyMarkdown: 13d14262adfee76563943cee1916d06be1060711
 
 PODFILE CHECKSUM: 087e4cc3b2467f2f8d666f19f7eff1fe7da773aa
 
