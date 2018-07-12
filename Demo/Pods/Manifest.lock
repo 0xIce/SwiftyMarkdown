@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../SwiftyMarkdown.podspec"
 
 SPEC CHECKSUMS:
-  SwiftyMarkdown: 63ff545a6cc1a1256a9f9e0eda07f68ea592e6cb
+  SwiftyMarkdown: ba371a51cb040d291804cc702585421b428f845d
 
-PODFILE CHECKSUM: 087e4cc3b2467f2f8d666f19f7eff1fe7da773aa
+PODFILE CHECKSUM: 4755cfec9e1a9246e8cb1fbdd9ad11f5dd756504
 
 COCOAPODS: 1.5.3
