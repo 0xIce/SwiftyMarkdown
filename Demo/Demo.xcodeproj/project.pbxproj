@@ -7,124 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		770591C07F4E7266EB108DAE /* Pods_SwiftyCommonMarkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E4B05C82850E6065EA8E42 /* Pods_SwiftyCommonMarkDemo.framework */; };
-		FB2D3D3720F5F6C10082C543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D3D3620F5F6C10082C543 /* AppDelegate.swift */; };
-		FB2D3D3920F5F6C10082C543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D3D3820F5F6C10082C543 /* ViewController.swift */; };
-		FB2D3D3C20F5F6C10082C543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D3D3A20F5F6C10082C543 /* Main.storyboard */; };
-		FB2D3D3E20F5F6C20082C543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D3D3D20F5F6C20082C543 /* Assets.xcassets */; };
-		FB2D3D4120F5F6C20082C543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D3D3F20F5F6C20082C543 /* LaunchScreen.storyboard */; };
+		09E31D561BFEEDBD162311C9 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EE05A2470338FD22403DAB /* Pods_Demo.framework */; };
+		FBA1127120F799A000AD4A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1127020F799A000AD4A4C /* AppDelegate.swift */; };
+		FBA1127320F799A000AD4A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1127220F799A000AD4A4C /* ViewController.swift */; };
+		FBA1127620F799A000AD4A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA1127420F799A000AD4A4C /* Main.storyboard */; };
+		FBA1127820F799A100AD4A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA1127720F799A100AD4A4C /* Assets.xcassets */; };
+		FBA1127B20F799A100AD4A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA1127920F799A100AD4A4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		144E2DAD9B4BD55C4BEDC0A2 /* Pods-SwiftyCommonMarkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCommonMarkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyCommonMarkDemo/Pods-SwiftyCommonMarkDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		46222A70D4CF97050B50E321 /* Pods-SwiftyCommonMarkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyCommonMarkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyCommonMarkDemo/Pods-SwiftyCommonMarkDemo.release.xcconfig"; sourceTree = "<group>"; };
-		E1E4B05C82850E6065EA8E42 /* Pods_SwiftyCommonMarkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyCommonMarkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2D3D3320F5F6C10082C543 /* SwiftyCommonMarkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyCommonMarkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2D3D3620F5F6C10082C543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB2D3D3820F5F6C10082C543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB2D3D3B20F5F6C10082C543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB2D3D3D20F5F6C20082C543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB2D3D4020F5F6C20082C543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB2D3D4220F5F6C20082C543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EE05A2470338FD22403DAB /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		214D19967929835D10BAD199 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F773AA6791DDA2F2F4B9A13F /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		FBA1126D20F799A000AD4A4C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA1127020F799A000AD4A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBA1127220F799A000AD4A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBA1127520F799A000AD4A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA1127720F799A100AD4A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA1127A20F799A100AD4A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBA1127C20F799A100AD4A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FB2D3D3020F5F6C10082C543 /* Frameworks */ = {
+		FBA1126A20F799A000AD4A4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770591C07F4E7266EB108DAE /* Pods_SwiftyCommonMarkDemo.framework in Frameworks */,
+				09E31D561BFEEDBD162311C9 /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11D126177778344EEADBE09C /* Pods */ = {
+		CBE3ED25E885AFE0EF98A9E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				144E2DAD9B4BD55C4BEDC0A2 /* Pods-SwiftyCommonMarkDemo.debug.xcconfig */,
-				46222A70D4CF97050B50E321 /* Pods-SwiftyCommonMarkDemo.release.xcconfig */,
+				F773AA6791DDA2F2F4B9A13F /* Pods-Demo.debug.xcconfig */,
+				214D19967929835D10BAD199 /* Pods-Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A59402B29A4866A5C8965F78 /* Frameworks */ = {
+		DF29634010CE082FB0BD3FDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1E4B05C82850E6065EA8E42 /* Pods_SwiftyCommonMarkDemo.framework */,
+				16EE05A2470338FD22403DAB /* Pods_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FB2D3D2A20F5F6C10082C543 = {
+		FBA1126420F799A000AD4A4C = {
 			isa = PBXGroup;
 			children = (
-				FB2D3D3520F5F6C10082C543 /* SwiftyCommonMarkDemo */,
-				FB2D3D3420F5F6C10082C543 /* Products */,
-				11D126177778344EEADBE09C /* Pods */,
-				A59402B29A4866A5C8965F78 /* Frameworks */,
+				FBA1126F20F799A000AD4A4C /* Demo */,
+				FBA1126E20F799A000AD4A4C /* Products */,
+				CBE3ED25E885AFE0EF98A9E5 /* Pods */,
+				DF29634010CE082FB0BD3FDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FB2D3D3420F5F6C10082C543 /* Products */ = {
+		FBA1126E20F799A000AD4A4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D3D3320F5F6C10082C543 /* SwiftyCommonMarkDemo.app */,
+				FBA1126D20F799A000AD4A4C /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB2D3D3520F5F6C10082C543 /* SwiftyCommonMarkDemo */ = {
+		FBA1126F20F799A000AD4A4C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D3D3620F5F6C10082C543 /* AppDelegate.swift */,
-				FB2D3D3820F5F6C10082C543 /* ViewController.swift */,
-				FB2D3D3A20F5F6C10082C543 /* Main.storyboard */,
-				FB2D3D3D20F5F6C20082C543 /* Assets.xcassets */,
-				FB2D3D3F20F5F6C20082C543 /* LaunchScreen.storyboard */,
-				FB2D3D4220F5F6C20082C543 /* Info.plist */,
+				FBA1127020F799A000AD4A4C /* AppDelegate.swift */,
+				FBA1127220F799A000AD4A4C /* ViewController.swift */,
+				FBA1127420F799A000AD4A4C /* Main.storyboard */,
+				FBA1127720F799A100AD4A4C /* Assets.xcassets */,
+				FBA1127920F799A100AD4A4C /* LaunchScreen.storyboard */,
+				FBA1127C20F799A100AD4A4C /* Info.plist */,
 			);
-			path = SwiftyCommonMarkDemo;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB2D3D3220F5F6C10082C543 /* SwiftyCommonMarkDemo */ = {
+		FBA1126C20F799A000AD4A4C /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB2D3D4520F5F6C20082C543 /* Build configuration list for PBXNativeTarget "SwiftyCommonMarkDemo" */;
+			buildConfigurationList = FBA1127F20F799A100AD4A4C /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				814EA103CAA474C5445E04EB /* [CP] Check Pods Manifest.lock */,
-				FB2D3D2F20F5F6C10082C543 /* Sources */,
-				FB2D3D3020F5F6C10082C543 /* Frameworks */,
-				FB2D3D3120F5F6C10082C543 /* Resources */,
+				70D8BE20642491238284B41A /* [CP] Check Pods Manifest.lock */,
+				FBA1126920F799A000AD4A4C /* Sources */,
+				FBA1126A20F799A000AD4A4C /* Frameworks */,
+				FBA1126B20F799A000AD4A4C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftyCommonMarkDemo;
-			productName = SwiftyCommonMarkDemo;
-			productReference = FB2D3D3320F5F6C10082C543 /* SwiftyCommonMarkDemo.app */;
+			name = Demo;
+			productName = Demo;
+			productReference = FBA1126D20F799A000AD4A4C /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FB2D3D2B20F5F6C10082C543 /* Project object */ = {
+		FBA1126520F799A000AD4A4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = hongqima;
 				TargetAttributes = {
-					FB2D3D3220F5F6C10082C543 = {
+					FBA1126C20F799A000AD4A4C = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = FB2D3D2E20F5F6C10082C543 /* Build configuration list for PBXProject "SwiftyCommonMarkDemo" */;
+			buildConfigurationList = FBA1126820F799A000AD4A4C /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,31 +132,31 @@
 				en,
 				Base,
 			);
-			mainGroup = FB2D3D2A20F5F6C10082C543;
-			productRefGroup = FB2D3D3420F5F6C10082C543 /* Products */;
+			mainGroup = FBA1126420F799A000AD4A4C;
+			productRefGroup = FBA1126E20F799A000AD4A4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB2D3D3220F5F6C10082C543 /* SwiftyCommonMarkDemo */,
+				FBA1126C20F799A000AD4A4C /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FB2D3D3120F5F6C10082C543 /* Resources */ = {
+		FBA1126B20F799A000AD4A4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D3D4120F5F6C20082C543 /* LaunchScreen.storyboard in Resources */,
-				FB2D3D3E20F5F6C20082C543 /* Assets.xcassets in Resources */,
-				FB2D3D3C20F5F6C10082C543 /* Main.storyboard in Resources */,
+				FBA1127B20F799A100AD4A4C /* LaunchScreen.storyboard in Resources */,
+				FBA1127820F799A100AD4A4C /* Assets.xcassets in Resources */,
+				FBA1127620F799A000AD4A4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		814EA103CAA474C5445E04EB /* [CP] Check Pods Manifest.lock */ = {
+		70D8BE20642491238284B41A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,7 +167,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftyCommonMarkDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -177,30 +177,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FB2D3D2F20F5F6C10082C543 /* Sources */ = {
+		FBA1126920F799A000AD4A4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D3D3920F5F6C10082C543 /* ViewController.swift in Sources */,
-				FB2D3D3720F5F6C10082C543 /* AppDelegate.swift in Sources */,
+				FBA1127320F799A000AD4A4C /* ViewController.swift in Sources */,
+				FBA1127120F799A000AD4A4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB2D3D3A20F5F6C10082C543 /* Main.storyboard */ = {
+		FBA1127420F799A000AD4A4C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB2D3D3B20F5F6C10082C543 /* Base */,
+				FBA1127520F799A000AD4A4C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FB2D3D3F20F5F6C20082C543 /* LaunchScreen.storyboard */ = {
+		FBA1127920F799A100AD4A4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB2D3D4020F5F6C20082C543 /* Base */,
+				FBA1127A20F799A100AD4A4C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FB2D3D4320F5F6C20082C543 /* Debug */ = {
+		FBA1127D20F799A100AD4A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		FB2D3D4420F5F6C20082C543 /* Release */ = {
+		FBA1127E20F799A100AD4A4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,38 +322,38 @@
 			};
 			name = Release;
 		};
-		FB2D3D4620F5F6C20082C543 /* Debug */ = {
+		FBA1128020F799A100AD4A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 144E2DAD9B4BD55C4BEDC0A2 /* Pods-SwiftyCommonMarkDemo.debug.xcconfig */;
+			baseConfigurationReference = F773AA6791DDA2F2F4B9A13F /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3LTYMETT9;
-				INFOPLIST_FILE = SwiftyCommonMarkDemo/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tk.hotchner.SwiftyCommonMarkDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = tk.hotchner.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FB2D3D4720F5F6C20082C543 /* Release */ = {
+		FBA1128120F799A100AD4A4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46222A70D4CF97050B50E321 /* Pods-SwiftyCommonMarkDemo.release.xcconfig */;
+			baseConfigurationReference = 214D19967929835D10BAD199 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3LTYMETT9;
-				INFOPLIST_FILE = SwiftyCommonMarkDemo/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tk.hotchner.SwiftyCommonMarkDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = tk.hotchner.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,25 +363,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB2D3D2E20F5F6C10082C543 /* Build configuration list for PBXProject "SwiftyCommonMarkDemo" */ = {
+		FBA1126820F799A000AD4A4C /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB2D3D4320F5F6C20082C543 /* Debug */,
-				FB2D3D4420F5F6C20082C543 /* Release */,
+				FBA1127D20F799A100AD4A4C /* Debug */,
+				FBA1127E20F799A100AD4A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB2D3D4520F5F6C20082C543 /* Build configuration list for PBXNativeTarget "SwiftyCommonMarkDemo" */ = {
+		FBA1127F20F799A100AD4A4C /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB2D3D4620F5F6C20082C543 /* Debug */,
-				FB2D3D4720F5F6C20082C543 /* Release */,
+				FBA1128020F799A100AD4A4C /* Debug */,
+				FBA1128120F799A100AD4A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FB2D3D2B20F5F6C10082C543 /* Project object */;
+	rootObject = FBA1126520F799A000AD4A4C /* Project object */;
 }

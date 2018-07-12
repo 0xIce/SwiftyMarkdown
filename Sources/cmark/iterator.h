@@ -6,7 +6,6 @@ extern "C" {
 #endif
 
 #include "cmark.h"
-#include "memory.h"
 
 typedef struct {
   cmark_event_type ev_type;
@@ -14,7 +13,6 @@ typedef struct {
 } cmark_iter_state;
 
 struct cmark_iter {
-  cmark_mem *mem;
   cmark_node *root;
   cmark_iter_state cur;
   cmark_iter_state next;

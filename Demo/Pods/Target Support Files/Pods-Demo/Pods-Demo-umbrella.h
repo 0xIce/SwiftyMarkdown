@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SwiftyCommonMarkDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SwiftyCommonMarkDemoVersionString[];
+FOUNDATION_EXPORT double Pods_DemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_DemoVersionString[];
 

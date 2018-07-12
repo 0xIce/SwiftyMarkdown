@@ -3,9 +3,7 @@
 #include <string.h>
 #include <errno.h>
 #include "config.h"
-#include "memory.h"
 #include "cmark.h"
-#include "node.h"
 
 #if defined(_WIN32) && !defined(__CYGWIN__)
 #include <io.h>
@@ -29,10 +27,9 @@ void print_usage() {
   printf("  --width WIDTH    Specify wrap width (default 0 = nowrap)\n");
   printf("  --sourcepos      Include source position attribute\n");
   printf("  --hardbreaks     Treat newlines as hard line breaks\n");
-  printf("  --nobreaks       Render soft line breaks as spaces\n");
   printf("  --safe           Suppress raw HTML and dangerous URLs\n");
   printf("  --smart          Use smart punctuation\n");
-  printf("  --validate-utf8  Replace UTF-8 invalid sequences with U+FFFD\n");
+  printf("  --normalize      Consolidate adjacent text nodes\n");
   printf("  --help, -h       Print usage information\n");
   printf("  --version        Print version\n");
 }
@@ -62,7 +59,7 @@ static void print_document(cmark_node *document, writer_format writer,
     exit(1);
   }
   printf("%s", result);
-  cmark_node_mem(document)->free(result);
+  free(result);
 }
 
 int main(int argc, char *argv[]) {
@@ -78,27 +75,26 @@ int main(int argc, char *argv[]) {
   int options = CMARK_OPT_DEFAULT;
 
 #if defined(_WIN32) && !defined(__CYGWIN__)
-  _setmode(_fileno(stdin), _O_BINARY);
   _setmode(_fileno(stdout), _O_BINARY);
 #endif
 
-  files = (int *)calloc(argc, sizeof(*files));
+  files = (int *)malloc(argc * sizeof(*files));
 
   for (i = 1; i < argc; i++) {
     if (strcmp(argv[i], "--version") == 0) {
       printf("cmark %s", CMARK_VERSION_STRING);
-      printf(" - CommonMark converter\n(C) 2014-2016 John MacFarlane\n");
+      printf(" - CommonMark converter\n(C) 2014, 2015 John MacFarlane\n");
       exit(0);
     } else if (strcmp(argv[i], "--sourcepos") == 0) {
       options |= CMARK_OPT_SOURCEPOS;
     } else if (strcmp(argv[i], "--hardbreaks") == 0) {
       options |= CMARK_OPT_HARDBREAKS;
-    } else if (strcmp(argv[i], "--nobreaks") == 0) {
-      options |= CMARK_OPT_NOBREAKS;
     } else if (strcmp(argv[i], "--smart") == 0) {
       options |= CMARK_OPT_SMART;
     } else if (strcmp(argv[i], "--safe") == 0) {
       options |= CMARK_OPT_SAFE;
+    } else if (strcmp(argv[i], "--normalize") == 0) {
+      options |= CMARK_OPT_NORMALIZE;
     } else if (strcmp(argv[i], "--validate-utf8") == 0) {
       options |= CMARK_OPT_VALIDATE_UTF8;
     } else if ((strcmp(argv[i], "--help") == 0) ||
