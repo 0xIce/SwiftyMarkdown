@@ -17,11 +17,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SwiftyMarkdown/**/*",
+  "source_files": "Sources/**/*",
   "requires_arc": true,
   "module_name": "SwiftyMarkdown",
   "pod_target_xcconfig": {
-    "SWIFT_INCLUDE_PATHS": "$(SRCROOT)/../../SwiftyMarkdown/cmark/**"
+    "SWIFT_INCLUDE_PATHS": "$(SRCROOT)/../../Sources/cmark/**"
   },
-  "public_header_files": "SwiftyMarkdown/*.h"
+  "public_header_files": "Sources/*.h"
 }
