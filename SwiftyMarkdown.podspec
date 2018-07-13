@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source_files = 'SwiftyMarkdown/**/*'
   s.requires_arc = true
   s.module_name = "SwiftyMarkdown"
-  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/SwiftyMarkdown/SwiftyMarkdown/cmark/**' }
+  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/../../SwiftyMarkdown/cmark/**' }
   s.public_header_files = 'SwiftyMarkdown/*.h'
 end
