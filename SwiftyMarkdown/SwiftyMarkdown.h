@@ -8,10 +8,7 @@
 #ifndef SwiftyMarkdown_h
 #define SwiftyMarkdown_h
 
-//! Project version number for Down.
-FOUNDATION_EXPORT double DownVersionNumber;
-
-//! Project version string for Down.
-FOUNDATION_EXPORT const unsigned char DownVersionString[];
+FOUNDATION_EXPORT double SwiftyMarkdownVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftyMarkdownVersionString[];
 
 #endif /* SwiftyMarkdown_h */
