@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/hotchner/SwiftyMarkdown.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SwiftyMarkdown/**/*'
+  s.source_files = 'Sources/**/*'
   s.requires_arc = true
   s.module_name = "SwiftyMarkdown"
-  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/../../SwiftyMarkdown/cmark/**' }
-  s.public_header_files = 'SwiftyMarkdown/*.h'
+  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/../../Sources/cmark/**' }
+  s.public_header_files = 'Sources/*.h'
 end
