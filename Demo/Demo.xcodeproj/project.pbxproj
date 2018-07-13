@@ -10,7 +10,6 @@
 		09E31D561BFEEDBD162311C9 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EE05A2470338FD22403DAB /* Pods_Demo.framework */; };
 		FBA1127120F799A000AD4A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1127020F799A000AD4A4C /* AppDelegate.swift */; };
 		FBA1127320F799A000AD4A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA1127220F799A000AD4A4C /* ViewController.swift */; };
-		FBA1127620F799A000AD4A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA1127420F799A000AD4A4C /* Main.storyboard */; };
 		FBA1127820F799A100AD4A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA1127720F799A100AD4A4C /* Assets.xcassets */; };
 		FBA1127B20F799A100AD4A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA1127920F799A100AD4A4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		FBA1126D20F799A000AD4A4C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA1127020F799A000AD4A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA1127220F799A000AD4A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBA1127520F799A000AD4A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBA1127720F799A100AD4A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA1127A20F799A100AD4A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA1127C20F799A100AD4A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			children = (
 				FBA1127020F799A000AD4A4C /* AppDelegate.swift */,
 				FBA1127220F799A000AD4A4C /* ViewController.swift */,
-				FBA1127420F799A000AD4A4C /* Main.storyboard */,
 				FBA1127720F799A100AD4A4C /* Assets.xcassets */,
 				FBA1127920F799A100AD4A4C /* LaunchScreen.storyboard */,
 				FBA1127C20F799A100AD4A4C /* Info.plist */,
@@ -150,7 +147,6 @@
 			files = (
 				FBA1127B20F799A100AD4A4C /* LaunchScreen.storyboard in Resources */,
 				FBA1127820F799A100AD4A4C /* Assets.xcassets in Resources */,
-				FBA1127620F799A000AD4A4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,14 +204,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBA1127420F799A000AD4A4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBA1127520F799A000AD4A4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBA1127920F799A100AD4A4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3LTYMETT9;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3LTYMETT9;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
