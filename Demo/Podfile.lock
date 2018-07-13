@@ -2,20 +2,15 @@ PODS:
   - SwiftyMarkdown (0.1.0)
 
 DEPENDENCIES:
-  - "SwiftyMarkdown (from `git@github.com:hotchner/SwiftyMarkdown.git`)"
+  - SwiftyMarkdown (from `../SwiftyMarkdown.podspec`)
 
 EXTERNAL SOURCES:
   SwiftyMarkdown:
-    :git: "git@github.com:hotchner/SwiftyMarkdown.git"
-
-CHECKOUT OPTIONS:
-  SwiftyMarkdown:
-    :commit: ab5914b9430e25aca11623d17b0e5c744a659dd4
-    :git: "git@github.com:hotchner/SwiftyMarkdown.git"
+    :path: "../SwiftyMarkdown.podspec"
 
 SPEC CHECKSUMS:
-  SwiftyMarkdown: 61fd8926425ff3b343458bb83c9c09ac8cbf12e9
+  SwiftyMarkdown: 3f73e45786420977306617c1e2e653c109c2612b
 
-PODFILE CHECKSUM: b650cfcf65f012c4284d181131520327aa005abc
+PODFILE CHECKSUM: e342bbc46ff5415dcc8380f5beb36b12ae2b335a
 
 COCOAPODS: 1.5.3
