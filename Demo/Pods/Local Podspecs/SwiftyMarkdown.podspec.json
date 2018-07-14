@@ -21,7 +21,7 @@
   "requires_arc": true,
   "module_name": "SwiftyMarkdown",
   "pod_target_xcconfig": {
-    "SWIFT_INCLUDE_PATHS": "$(SRCROOT)/../../Sources/cmark/**"
+    "SWIFT_INCLUDE_PATHS": "$(SRCROOT)/SwiftyMarkdown/Sources/cmark/**"
   },
   "public_header_files": "Sources/*.h"
 }

@@ -7,61 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06CEB2AA5971BC66F6E3CF7F4BE0D7D3 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C87F68CD5D61A6A0EEA12924AB19C63 /* chunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08CDE921B260D78EBD54E82B33FB2BF0 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = B692FD5DE21B44163893C96BB2DC2F54 /* entities.inc */; };
-		0F027D562B7EFBF407DD021C74396805 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 158BCA79606CAFD51A32B4568053A74C /* main.c */; };
-		0F26337EDA07EAF21D75704B81B84109 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = F894F3FF106E76EC37BFC6ADFAFF0B9A /* cmark_export.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11A7410FB528585C46E8BEB886E8CF9F /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = F27DF43C43FACD63A7B1B80AE6224372 /* iterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1375BA2C8942610D690BF44BB4360FDC /* libcmark.pc.in in Sources */ = {isa = PBXBuildFile; fileRef = C9BCBA8DDEDE14E6EA4B2D6C9A434906 /* libcmark.pc.in */; };
-		164F9F40138069FD2E43DF92429FF903 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = EB825F6A3F76F3E20158287EDCDA1B5E /* houdini.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0578857AAA85C928F38BEE8899C545DC /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 4602A7B29495313AA9F16CA69788C612 /* references.c */; };
+		0D7FE99FC613321E73D18027A2EA5698 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC175CDA2F024199002E365DD2CAB7 /* entities.inc */; };
+		1AA2E2C3AD25EC8412DE5F5B43C6FF4C /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 275162DE509A6967ED5241FA0E83929E /* inlines.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2385F2F59A8653E9E99FE796D1E3A960 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BC0EBDAE14E89E57D584378BDA3116 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C4FE6D9010E22646164062054683D1C /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 15B90510FCCCAEC9B1DA58795AFF3713 /* module.modulemap */; };
-		2D77F0D83205DBF2ED77B08B54904E76 /* cmark_version.h.in in Sources */ = {isa = PBXBuildFile; fileRef = 188EB91788C6942AA200B3619C726007 /* cmark_version.h.in */; };
-		2EBFFF43465CA875DFFDFD762CD1C1B4 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F5A24ACB2F49C6AAFBBD64D721F56A /* parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30C4ED484E491AEB3A9183DFC01B1350 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = EF7B73949948B227A1E7495700B5D6F4 /* CMakeLists.txt */; };
-		3338F916D47C590F9851336406D70954 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A43426224972091DCE6175C211CF80 /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		38D49A87880E6D50CAE7ECB021E695BF /* scanners.re in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD07017C236B1F0236952B470FD68B /* scanners.re */; };
-		39D2C8383C5AA56A5ADD0BAA84C64BE6 /* SwiftyMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 793215184C7F25D05D055F6FE19C9A87 /* SwiftyMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A6F9F241D75E17E73B0BA53786FDABE /* SwiftyMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2CCFC133024314AD5994C0D4D327D5 /* SwiftyMarkdown-dummy.m */; };
-		424A30C63B7061D464BB441F0F09A5FD /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = A5647F941AC6213E53155A2CA2F84529 /* references.c */; };
-		498FEA2839C458D3C7101CFD63C1A7A8 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DA51565DB06E84E4010A3D6DF085EE0 /* xml.c */; };
+		2411D423303944909331662BF12294C5 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9A443FC341CD165075603EB2E6F89E /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24355E36F3444E1709470D521A8FF017 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = EC652469736C6531088D7BA04090966F /* cmark_ctype.c */; };
+		309A17AE64C7E3C303063B5F96CB7278 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = F552A30702B5AE283D2E4ED4CA2DBC4B /* inlines.c */; };
+		33EB65932D64EB01557A436348441579 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 4672F240E8187253A3727E4B93756B2F /* chunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43C2CBBB71F911F68A7DCEACE9CB28BF /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 682B31480C071F23C3A0CD560CCF679D /* utf8.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49C6AEDE1F414B3D0A643821B5B35DD0 /* scanners.re in Sources */ = {isa = PBXBuildFile; fileRef = 9F490115BAC057E1E7F93443C4615092 /* scanners.re */; };
+		4B23B5CC103A8EAF9E29E30C77CF2056 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A127DFC0FCAFADB3BDA45BF6F47BEEB /* html.c */; };
+		4BC6C57F19775CADBCBFC1F4DEB11D1E /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 091B3783366396E3F80095AB85EC3EFD /* houdini_href_e.c */; };
 		5177FE00854884EF2822C2CB8D500C89 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297CC1D72EFE436360CFBB898F8CB2E /* Pods-Demo-dummy.m */; };
-		55B16E344191AD64CEACE9CC493896D2 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 899FE9F94B28FE1E16D860CC3591EF8D /* scanners.c */; };
-		5BAE477383274E113C512118DEA004C1 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = B1BC83535A9965F6A1C011138DBCD1C1 /* man.c */; };
-		5C5E2D9C584765AF7276C1728AB4A148 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 536E54554F4FDD20D86482DEB60296B2 /* cmark.c */; };
-		6960C8B6813D70E4D86EFD4627ABEECE /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 053FEAFA9C6E95A2D24B27E9D33EEF2C /* cmark_version.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6A89735E0206B2815DDC52B59889971F /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D30FC764E4920EFCE66DA71BC962D1 /* MarkdownView.swift */; };
+		528B68F7B874101075CB9C982D0AC63F /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 60FB66031E57B9D64B8DD36D66BB3561 /* scanners.c */; };
+		5BC42C46F1D25B61D00ADC3B53A5106C /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1D984962DAB71B3B6E8F02AF281012 /* buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		643AF1AE1B42C8E704221844360D02E6 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D9F30409176CD662D2DDE32A196AAC33 /* buffer.c */; };
+		65AB9FE9D38A8AC9EB396C1AC646D024 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 1508D6E516046F93A7F1B1F5338CDC2A /* utf8.c */; };
+		6984451D78C0C98F3F546C06C7F3E35A /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = CD58D28F9B1DB0981DA611B6F76732CE /* cmark.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A5156DC75A7BE0E1EB9A8E834189D08 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 597DB8597855CE0374E2AE5336F602CD /* man.c */; };
 		74B35C8587015D2BC3393CF9C7718582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		76850AD46B39C76C02466D985942EE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7801D5212735EC62F399BEA8D3CEC4EA /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F161C4D3D333A30FB018A69ADB9A /* latex.c */; };
-		7A0830394F3E9A2A37C94BA8EB78CA6C /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A6DB89F0E284C8D52A89551514A86 /* buffer.c */; };
-		7AB1E567BE7D2C1D4AD82CD823D13F26 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF79AA8E1B016AFF3F1352685C4C7531 /* buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81CD6ED3177F843DAAA872631D44C51B /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16610A7435DCD338428D5A725A4E8E /* Markdown.swift */; };
-		8999C7A8D5AD300E4C437CFC76B468A0 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 4849E9B1E8431CC684CD335318310BB2 /* node.c */; };
-		8F6C7C3928CFA440371AF092D288109E /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CB0183D22BBCB3B3E5ED5F7CB77A64 /* node.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B67FD47D89CB9287CD121D5160DE2EF /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = E5CF1CEF65FD1CB1E5D184DE49FDD26A /* cmark_ctype.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A1821B37E51CA35864AAE99CAEDE17A8 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = BBD341FD3737BD7BE21159B35BD97906 /* houdini_html_u.c */; };
-		A59B3B546D0FED8B790AED0AB8027222 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 165F9E19D835B6D1246326955AA7C033 /* render.c */; };
-		A5D9C8F7619C39A143EB4DF44EC9C18A /* HtmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C8303921B630769B7DA4653D916FA /* HtmlParser.swift */; };
-		AE6F35D2B4F424E411C2F9C6C5BC2824 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 206B75C92323FFEFCD4DC2BA44BF2AA4 /* utf8.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B636550DCFE35367628C27054A2E2C26 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = BC623E41D44576A50FBE6CC51CEFB899 /* iterator.c */; };
-		C4713303AC50A60CDCA5554960DC422F /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = D03017C3D81C938930B386B2CE3071BC /* inlines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C55042315E1F9BAA3E44895ACDA1BAA0 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = BB4A08B5A66221B9C9D09386F220B2F6 /* cmark_ctype.c */; };
-		C754BC2274704806FE709D33136DDF80 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 369DDAF7E863F90BA444203023DCDAA2 /* render.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC3F7BF5CD095BA74A79F8A0EA76747B /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2681F36F7466F835934A4D097C8BB5 /* references.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CD7B906F95E43A1C7A5A9F05C1EFAD3F /* config.h.in in Sources */ = {isa = PBXBuildFile; fileRef = 7FA3B6E5BDA867634FFDC4B251258209 /* config.h.in */; };
-		D02BB69F491F831CA8577BD54AB50B6B /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = D2336BA21BD792B1BBE529C1F82953EC /* case_fold_switch.inc */; };
-		D21BE3BEC7023BF820CEFD5FB194590B /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 1137D889780EDA81D9669E80638A2960 /* html.c */; };
-		D8D988D92DBB9A26CE9C911D6A0D32D8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 652A505B73AF92B8841ED6823F24F476 /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DBC31BB668364DF01D38A700550606A9 /* SwiftyMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 1428BF561DB4AA9E1ECBF589A26EC97F /* SwiftyMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEF5D018A7B61F903A54E85E8C59DADD /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 184D79164EC0C5B2B0A6CF1B05C06179 /* houdini_href_e.c */; };
-		E01CA7C7A29B23624FD9EE7AFBBCAF0C /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = E20C59FF76667FF2C3B2BEA75F82C512 /* utf8.c */; };
-		E0EDE5395984C27DF27F7642C27ECE7C /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B107DE63BE3C01A262529A709803337 /* Parser.swift */; };
-		E34ABE0F62891CC4117C0CAC617C0263 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = B953CF14DC9D04B4D01185AF5F6EA944 /* houdini_html_e.c */; };
-		E76E55F93B026F25078809B89317B2C4 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EA42C9B7677EF27DD5CD3AE8E314D2 /* cmark.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB28D2C52496F2DE796950BFE479CDF0 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = CC27C5EE3A42C5B046A3A41E05A10911 /* blocks.c */; };
-		EF3D7861CAD7A954431691E26E02D327 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = E9134A7A1D1AB1D79F9FEF377967C74C /* commonmark.c */; };
-		FCA962CCFF7F0DE119FF8F8B33CE2ED8 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 6979AD37E72522617BC061E2BC8390CD /* inlines.c */; };
+		7727DC8E03A84ECA63EFAB597169BACA /* libcmark.pc.in in Sources */ = {isa = PBXBuildFile; fileRef = 96A17E733FAFA20448F9BCD7CE2A48DA /* libcmark.pc.in */; };
+		7A162089D5492C141ED4EADC0E3B04EE /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F2040CC26E8B6323C79E4E613094982 /* render.c */; };
+		80AB3F98DEC71FD5CB95E3C8FDC917D1 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = E8629B7511E36A68E2CB735A79EFC36E /* cmark_ctype.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		852D5642C61FD3AAA5075865A09F6A91 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFAD8BBDCE9442E672EECA09A2E3C4D /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85E6A4EF855E5760DFA429794399967B /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 09F6DBFE7388EA0D4DE12820C505E41E /* latex.c */; };
+		8836E1F6596ABD05AA53E9A1FC465F21 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 13DCBAC5F4BBBC588AC1A89F343964CD /* cmark.c */; };
+		961814F711AA00332AE0C0800E8B3662 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = A794B790F1262F2DD2B9175CE61E2DB1 /* houdini.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A4C83798DE558544199F7C0BE95FF81 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18EE31ABC0FBEBC5BF520B6304C472 /* node.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C8955486C0FFF1B66E439666DE163B5 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 79B717066493A2AA62C2FFD2BC8609CD /* node.c */; };
+		9C963C0E98414E941C8CB388472DC392 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = B6D6F8E32AC16BEFBAA3F0FACCB9F8C9 /* module.modulemap */; };
+		A474BCB43F9624C54222E349C898841D /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = B3488AF242DB5C8AE4EE479C04470221 /* blocks.c */; };
+		A5F1AA6B60893F866C8164E2F3F3C1E4 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E13AB7A86FFCCB3E3FBFD81B8BC96F /* render.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD2D66DFCB682EC91A0728DA9C413F72 /* SwiftyMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4761596646EE6A4C9FA7390C56FF97B1 /* SwiftyMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE585BB1E27D63AF0A462461ABC9A53 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 10600A679ED27079F6E7BE87D2CFDC86 /* xml.c */; };
+		B45098232BC25EDC45D5FDBF97284AFF /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = D82FAFE8A2865077275EA8B08D60EAD4 /* cmark_version.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA813E6861D980DDB031FCD574A804B3 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 57689F147F47AEEFFDBD928F29E9EAD4 /* houdini_html_u.c */; };
+		BE7F8058EAB15F24946BBA4BB9E8EF3D /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 44516994C5BAA3FCA91E6DA3F8B090C9 /* iterator.c */; };
+		C40B6428993DD5282AB2C64DC67D4461 /* SwiftyMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = A9026C2C04DF002ADBF55613A57F1F84 /* SwiftyMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C43444F113B135801F0B45980CD3579A /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = AB5D8E80E5482BD6F6C65EEC6FB88E37 /* case_fold_switch.inc */; };
+		C591FE442E9EF0DFB92A420EFFC8E077 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = A2FAC6790B3001F8BC961B923B8148F3 /* houdini_html_e.c */; };
+		C5AD09F36A05C9C4EB23A86E630D8F39 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 689F001064CD8CE577042359CFBA8900 /* iterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6514FFCA0D84C50C9E182EAA42C19F2 /* cmark_version.h.in in Sources */ = {isa = PBXBuildFile; fileRef = 6904F69CD82B8C007003FE320FE76A0B /* cmark_version.h.in */; };
+		C6E75E1AEA9F1FF687DC9840001E0580 /* config.h.in in Sources */ = {isa = PBXBuildFile; fileRef = DA0AB78AFD35E00035821542F33C8740 /* config.h.in */; };
+		C9F24BB77EAFFCBA75BBAA4FE5D8FDC9 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = B9BC03CE2A4ECA71A98B763EC1BDAAAD /* commonmark.c */; };
+		CB29D301D9E9A984D13E5F2CAC980731 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 219F43E85C3AA820F8D1D85FABBD88DF /* main.c */; };
+		D7D7AB6860867BEB8143B9BEB46D61D2 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = A42E6B9C85C8AC65A84235DD20579258 /* cmark_export.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D88D712CF4348F2C9405CF42BAECB546 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7AD01778498110A8C3A2C17F9A5F0 /* MarkdownView.swift */; };
+		E1581C1E8660B17B51832609C7BAEFC0 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C23C96EEE26E92247F5EE5249F4DB9 /* references.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1BA341FCAC6744E54D2558809DC6152 /* SwiftyMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583ABAB6BF19E4E3E2B2B17215DD96C8 /* SwiftyMarkdown-dummy.m */; };
+		E22D0D9215750E5387C3F0CAAECD5CF9 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CB16F9260BC4E03C87EF2BB273FF71 /* parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6B9768BFC03F6AE8E2C835F7F6683B0 /* SwiftyMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E91CC69B8AD12FEAE0179A2BD82B6 /* SwiftyMarkdown.swift */; };
+		F941E3E9B012EB558A73DAD754902864 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 5C97713D399AA7E793DA82BCDD1DF7B7 /* CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,78 +73,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C23C96EEE26E92247F5EE5249F4DB9 /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = references.h; path = Sources/cmark/references.h; sourceTree = "<group>"; };
 		04A993CDEEB31A37C2E08DA333D07D93 /* SwiftyMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyMarkdown.framework; path = SwiftyMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		053FEAFA9C6E95A2D24B27E9D33EEF2C /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmark_version.h; sourceTree = "<group>"; };
-		1137D889780EDA81D9669E80638A2960 /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; path = html.c; sourceTree = "<group>"; };
-		11D30FC764E4920EFCE66DA71BC962D1 /* MarkdownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		091B3783366396E3F80095AB85EC3EFD /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_href_e.c; path = Sources/cmark/houdini_href_e.c; sourceTree = "<group>"; };
+		09F6DBFE7388EA0D4DE12820C505E41E /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = latex.c; path = Sources/cmark/latex.c; sourceTree = "<group>"; };
+		10600A679ED27079F6E7BE87D2CFDC86 /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xml.c; path = Sources/cmark/xml.c; sourceTree = "<group>"; };
 		1297CC1D72EFE436360CFBB898F8CB2E /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
-		1428BF561DB4AA9E1ECBF589A26EC97F /* SwiftyMarkdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyMarkdown.h; path = Sources/SwiftyMarkdown.h; sourceTree = "<group>"; };
-		158BCA79606CAFD51A32B4568053A74C /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; path = main.c; sourceTree = "<group>"; };
-		15B90510FCCCAEC9B1DA58795AFF3713 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		165F9E19D835B6D1246326955AA7C033 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; path = render.c; sourceTree = "<group>"; };
-		184D79164EC0C5B2B0A6CF1B05C06179 /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; path = houdini_href_e.c; sourceTree = "<group>"; };
-		188EB91788C6942AA200B3619C726007 /* cmark_version.h.in */ = {isa = PBXFileReference; includeInIndex = 1; path = cmark_version.h.in; sourceTree = "<group>"; };
+		13DCBAC5F4BBBC588AC1A89F343964CD /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark.c; path = Sources/cmark/cmark.c; sourceTree = "<group>"; };
+		1508D6E516046F93A7F1B1F5338CDC2A /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf8.c; path = Sources/cmark/utf8.c; sourceTree = "<group>"; };
 		1965FF76BB91163730C384D7B1E2C4FB /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
-		206B75C92323FFEFCD4DC2BA44BF2AA4 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		1DFAD8BBDCE9442E672EECA09A2E3C4D /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = Sources/cmark/config.h; sourceTree = "<group>"; };
+		219F43E85C3AA820F8D1D85FABBD88DF /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; name = main.c; path = Sources/cmark/main.c; sourceTree = "<group>"; };
+		275162DE509A6967ED5241FA0E83929E /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = Sources/cmark/inlines.h; sourceTree = "<group>"; };
 		275C17A46F39C36327493626A168B6D5 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		27BC0EBDAE14E89E57D584378BDA3116 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
 		282ECFCD0084F94EC1DED9401AAFE7F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28959C508DC48C82F0302B7D8AA90368 /* SwiftyMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-prefix.pch"; sourceTree = "<group>"; };
-		2B107DE63BE3C01A262529A709803337 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		369DDAF7E863F90BA444203023DCDAA2 /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
-		3C87F68CD5D61A6A0EEA12924AB19C63 /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = chunk.h; sourceTree = "<group>"; };
-		3DA51565DB06E84E4010A3D6DF085EE0 /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; path = xml.c; sourceTree = "<group>"; };
-		4849E9B1E8431CC684CD335318310BB2 /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; path = node.c; sourceTree = "<group>"; };
-		4A2681F36F7466F835934A4D097C8BB5 /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = references.h; sourceTree = "<group>"; };
-		4CB5B5069B4C40F63F3B26B78536F9CB /* SwiftyMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMarkdown.xcconfig; sourceTree = "<group>"; };
-		4D0A6DB89F0E284C8D52A89551514A86 /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = buffer.c; sourceTree = "<group>"; };
-		536E54554F4FDD20D86482DEB60296B2 /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; path = cmark.c; sourceTree = "<group>"; };
+		3A127DFC0FCAFADB3BDA45BF6F47BEEB /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; name = html.c; path = Sources/cmark/html.c; sourceTree = "<group>"; };
+		3D1D984962DAB71B3B6E8F02AF281012 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = Sources/cmark/buffer.h; sourceTree = "<group>"; };
+		429BCBA4D5212BA09F3E4460EA5055F2 /* SwiftyMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMarkdown.xcconfig; sourceTree = "<group>"; };
+		44516994C5BAA3FCA91E6DA3F8B090C9 /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.c; path = Sources/cmark/iterator.c; sourceTree = "<group>"; };
+		4602A7B29495313AA9F16CA69788C612 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; name = references.c; path = Sources/cmark/references.c; sourceTree = "<group>"; };
+		4672F240E8187253A3727E4B93756B2F /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = Sources/cmark/chunk.h; sourceTree = "<group>"; };
+		46D9DB6205CDF94AECE950957A871F12 /* SwiftyMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-prefix.pch"; sourceTree = "<group>"; };
+		4761596646EE6A4C9FA7390C56FF97B1 /* SwiftyMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		57689F147F47AEEFFDBD928F29E9EAD4 /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_u.c; path = Sources/cmark/houdini_html_u.c; sourceTree = "<group>"; };
+		583ABAB6BF19E4E3E2B2B17215DD96C8 /* SwiftyMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMarkdown-dummy.m"; sourceTree = "<group>"; };
+		597DB8597855CE0374E2AE5336F602CD /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; name = man.c; path = Sources/cmark/man.c; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BBD07017C236B1F0236952B470FD68B /* scanners.re */ = {isa = PBXFileReference; includeInIndex = 1; path = scanners.re; sourceTree = "<group>"; };
+		5BCC175CDA2F024199002E365DD2CAB7 /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = entities.inc; path = Sources/cmark/entities.inc; sourceTree = "<group>"; };
+		5C97713D399AA7E793DA82BCDD1DF7B7 /* CMakeLists.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = CMakeLists.txt; path = Sources/cmark/CMakeLists.txt; sourceTree = "<group>"; };
 		5EFCFC4782B9646B842EB839A267D7AA /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		652A505B73AF92B8841ED6823F24F476 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		6979AD37E72522617BC061E2BC8390CD /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; path = inlines.c; sourceTree = "<group>"; };
-		793215184C7F25D05D055F6FE19C9A87 /* SwiftyMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		60FB66031E57B9D64B8DD36D66BB3561 /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanners.c; path = Sources/cmark/scanners.c; sourceTree = "<group>"; };
+		62A7AD01778498110A8C3A2C17F9A5F0 /* MarkdownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownView.swift; path = Sources/Sources/MarkdownView.swift; sourceTree = "<group>"; };
+		682B31480C071F23C3A0CD560CCF679D /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = Sources/cmark/utf8.h; sourceTree = "<group>"; };
+		689F001064CD8CE577042359CFBA8900 /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = Sources/cmark/iterator.h; sourceTree = "<group>"; };
+		6904F69CD82B8C007003FE320FE76A0B /* cmark_version.h.in */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark_version.h.in; path = Sources/cmark/cmark_version.h.in; sourceTree = "<group>"; };
+		6F2040CC26E8B6323C79E4E613094982 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; name = render.c; path = Sources/cmark/render.c; sourceTree = "<group>"; };
+		79B717066493A2AA62C2FFD2BC8609CD /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; name = node.c; path = Sources/cmark/node.c; sourceTree = "<group>"; };
 		7A01701031823CCAC30B58767A21D8A4 /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		7E54ABE47620939773296B4F9645E9E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FA3B6E5BDA867634FFDC4B251258209 /* config.h.in */ = {isa = PBXFileReference; includeInIndex = 1; path = config.h.in; sourceTree = "<group>"; };
-		899FE9F94B28FE1E16D860CC3591EF8D /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; path = scanners.c; sourceTree = "<group>"; };
 		9154BF16DC759A1EDD6A1AB4E22AA07D /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B7FE09F87F5CC6AB36DEA6E2CEDE2DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9ED3F9743C1211E6EAC483022F529931 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		96A17E733FAFA20448F9BCD7CE2A48DA /* libcmark.pc.in */ = {isa = PBXFileReference; includeInIndex = 1; name = libcmark.pc.in; path = Sources/cmark/libcmark.pc.in; sourceTree = "<group>"; };
+		9AEC229DC866DC61E34CD50F7AE0E22A /* SwiftyMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMarkdown.modulemap; sourceTree = "<group>"; };
+		9F490115BAC057E1E7F93443C4615092 /* scanners.re */ = {isa = PBXFileReference; includeInIndex = 1; name = scanners.re; path = Sources/cmark/scanners.re; sourceTree = "<group>"; };
 		A293EC6905CD2F770F31A1A57ACA0633 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		A5647F941AC6213E53155A2CA2F84529 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; path = references.c; sourceTree = "<group>"; };
-		B1BC83535A9965F6A1C011138DBCD1C1 /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; path = man.c; sourceTree = "<group>"; };
-		B385979DB0DA583E0986EB4F3F231C73 /* SwiftyMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftyMarkdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B692FD5DE21B44163893C96BB2DC2F54 /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; path = entities.inc; sourceTree = "<group>"; };
-		B953CF14DC9D04B4D01185AF5F6EA944 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; path = houdini_html_e.c; sourceTree = "<group>"; };
-		BB4A08B5A66221B9C9D09386F220B2F6 /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; path = cmark_ctype.c; sourceTree = "<group>"; };
-		BBD341FD3737BD7BE21159B35BD97906 /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; path = houdini_html_u.c; sourceTree = "<group>"; };
-		BC623E41D44576A50FBE6CC51CEFB899 /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; path = iterator.c; sourceTree = "<group>"; };
-		C66C8303921B630769B7DA4653D916FA /* HtmlParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HtmlParser.swift; sourceTree = "<group>"; };
-		C9BCBA8DDEDE14E6EA4B2D6C9A434906 /* libcmark.pc.in */ = {isa = PBXFileReference; includeInIndex = 1; path = libcmark.pc.in; sourceTree = "<group>"; };
+		A2FAC6790B3001F8BC961B923B8148F3 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_e.c; path = Sources/cmark/houdini_html_e.c; sourceTree = "<group>"; };
+		A42E6B9C85C8AC65A84235DD20579258 /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = Sources/cmark/cmark_export.h; sourceTree = "<group>"; };
+		A794B790F1262F2DD2B9175CE61E2DB1 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = Sources/cmark/houdini.h; sourceTree = "<group>"; };
+		A9026C2C04DF002ADBF55613A57F1F84 /* SwiftyMarkdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyMarkdown.h; path = Sources/SwiftyMarkdown.h; sourceTree = "<group>"; };
+		AB5D8E80E5482BD6F6C65EEC6FB88E37 /* case_fold_switch.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = case_fold_switch.inc; path = Sources/cmark/case_fold_switch.inc; sourceTree = "<group>"; };
+		AD84E5B1CED6139B4130F9855F53DADE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3488AF242DB5C8AE4EE479C04470221 /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blocks.c; path = Sources/cmark/blocks.c; sourceTree = "<group>"; };
+		B6D6F8E32AC16BEFBAA3F0FACCB9F8C9 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = Sources/cmark/module.modulemap; sourceTree = "<group>"; };
+		B9BC03CE2A4ECA71A98B763EC1BDAAAD /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = commonmark.c; path = Sources/cmark/commonmark.c; sourceTree = "<group>"; };
 		C9BEFA1FE7A4048BDF6A0ACEF42A7991 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9F5A24ACB2F49C6AAFBBD64D721F56A /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
-		CC27C5EE3A42C5B046A3A41E05A10911 /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; path = blocks.c; sourceTree = "<group>"; };
-		D03017C3D81C938930B386B2CE3071BC /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = inlines.h; sourceTree = "<group>"; };
-		D2336BA21BD792B1BBE529C1F82953EC /* case_fold_switch.inc */ = {isa = PBXFileReference; includeInIndex = 1; path = case_fold_switch.inc; sourceTree = "<group>"; };
-		E20C59FF76667FF2C3B2BEA75F82C512 /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; path = utf8.c; sourceTree = "<group>"; };
-		E5CF1CEF65FD1CB1E5D184DE49FDD26A /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmark_ctype.h; sourceTree = "<group>"; };
-		E9134A7A1D1AB1D79F9FEF377967C74C /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; path = commonmark.c; sourceTree = "<group>"; };
+		CD58D28F9B1DB0981DA611B6F76732CE /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark.h; path = Sources/cmark/cmark.h; sourceTree = "<group>"; };
+		CE18EE31ABC0FBEBC5BF520B6304C472 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = Sources/cmark/node.h; sourceTree = "<group>"; };
+		D82FAFE8A2865077275EA8B08D60EAD4 /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_version.h; path = Sources/cmark/cmark_version.h; sourceTree = "<group>"; };
+		D9F30409176CD662D2DDE32A196AAC33 /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer.c; path = Sources/cmark/buffer.c; sourceTree = "<group>"; };
+		DA0AB78AFD35E00035821542F33C8740 /* config.h.in */ = {isa = PBXFileReference; includeInIndex = 1; name = config.h.in; path = Sources/cmark/config.h.in; sourceTree = "<group>"; };
+		E8629B7511E36A68E2CB735A79EFC36E /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = Sources/cmark/cmark_ctype.h; sourceTree = "<group>"; };
 		EB2BD00EE3F4FBA187EE15A5C9968F90 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB825F6A3F76F3E20158287EDCDA1B5E /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = houdini.h; sourceTree = "<group>"; };
-		ED16610A7435DCD338428D5A725A4E8E /* Markdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
-		EF7B73949948B227A1E7495700B5D6F4 /* CMakeLists.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = CMakeLists.txt; sourceTree = "<group>"; };
-		F0CB0183D22BBCB3B3E5ED5F7CB77A64 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
-		F0EA42C9B7677EF27DD5CD3AE8E314D2 /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmark.h; sourceTree = "<group>"; };
-		F204D4AA43472B8CCDF45B997458D908 /* SwiftyMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMarkdown.modulemap; sourceTree = "<group>"; };
-		F27DF43C43FACD63A7B1B80AE6224372 /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = iterator.h; sourceTree = "<group>"; };
-		F4A43426224972091DCE6175C211CF80 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scanners.h; sourceTree = "<group>"; };
-		F7D8F161C4D3D333A30FB018A69ADB9A /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; path = latex.c; sourceTree = "<group>"; };
-		F894F3FF106E76EC37BFC6ADFAFF0B9A /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmark_export.h; sourceTree = "<group>"; };
-		FC2CCFC133024314AD5994C0D4D327D5 /* SwiftyMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMarkdown-dummy.m"; sourceTree = "<group>"; };
-		FF79AA8E1B016AFF3F1352685C4C7531 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		EC652469736C6531088D7BA04090966F /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark_ctype.c; path = Sources/cmark/cmark_ctype.c; sourceTree = "<group>"; };
+		EF1E91CC69B8AD12FEAE0179A2BD82B6 /* SwiftyMarkdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyMarkdown.swift; path = Sources/Sources/SwiftyMarkdown.swift; sourceTree = "<group>"; };
+		F3E13AB7A86FFCCB3E3FBFD81B8BC96F /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = Sources/cmark/render.h; sourceTree = "<group>"; };
+		F552A30702B5AE283D2E4ED4CA2DBC4B /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inlines.c; path = Sources/cmark/inlines.c; sourceTree = "<group>"; };
+		F6CB16F9260BC4E03C87EF2BB273FF71 /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = Sources/cmark/parser.h; sourceTree = "<group>"; };
+		FA9A443FC341CD165075603EB2E6F89E /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = Sources/cmark/scanners.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,83 +162,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BED895F5212EFBA6D46C3F84CDAE0D2 /* cmark */ = {
+		28F9981F8D894FE2B2E9459543BD76AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC27C5EE3A42C5B046A3A41E05A10911 /* blocks.c */,
-				4D0A6DB89F0E284C8D52A89551514A86 /* buffer.c */,
-				FF79AA8E1B016AFF3F1352685C4C7531 /* buffer.h */,
-				D2336BA21BD792B1BBE529C1F82953EC /* case_fold_switch.inc */,
-				3C87F68CD5D61A6A0EEA12924AB19C63 /* chunk.h */,
-				EF7B73949948B227A1E7495700B5D6F4 /* CMakeLists.txt */,
-				536E54554F4FDD20D86482DEB60296B2 /* cmark.c */,
-				F0EA42C9B7677EF27DD5CD3AE8E314D2 /* cmark.h */,
-				BB4A08B5A66221B9C9D09386F220B2F6 /* cmark_ctype.c */,
-				E5CF1CEF65FD1CB1E5D184DE49FDD26A /* cmark_ctype.h */,
-				F894F3FF106E76EC37BFC6ADFAFF0B9A /* cmark_export.h */,
-				053FEAFA9C6E95A2D24B27E9D33EEF2C /* cmark_version.h */,
-				188EB91788C6942AA200B3619C726007 /* cmark_version.h.in */,
-				E9134A7A1D1AB1D79F9FEF377967C74C /* commonmark.c */,
-				652A505B73AF92B8841ED6823F24F476 /* config.h */,
-				7FA3B6E5BDA867634FFDC4B251258209 /* config.h.in */,
-				B692FD5DE21B44163893C96BB2DC2F54 /* entities.inc */,
-				EB825F6A3F76F3E20158287EDCDA1B5E /* houdini.h */,
-				184D79164EC0C5B2B0A6CF1B05C06179 /* houdini_href_e.c */,
-				B953CF14DC9D04B4D01185AF5F6EA944 /* houdini_html_e.c */,
-				BBD341FD3737BD7BE21159B35BD97906 /* houdini_html_u.c */,
-				1137D889780EDA81D9669E80638A2960 /* html.c */,
-				6979AD37E72522617BC061E2BC8390CD /* inlines.c */,
-				D03017C3D81C938930B386B2CE3071BC /* inlines.h */,
-				BC623E41D44576A50FBE6CC51CEFB899 /* iterator.c */,
-				F27DF43C43FACD63A7B1B80AE6224372 /* iterator.h */,
-				F7D8F161C4D3D333A30FB018A69ADB9A /* latex.c */,
-				C9BCBA8DDEDE14E6EA4B2D6C9A434906 /* libcmark.pc.in */,
-				158BCA79606CAFD51A32B4568053A74C /* main.c */,
-				B1BC83535A9965F6A1C011138DBCD1C1 /* man.c */,
-				15B90510FCCCAEC9B1DA58795AFF3713 /* module.modulemap */,
-				4849E9B1E8431CC684CD335318310BB2 /* node.c */,
-				F0CB0183D22BBCB3B3E5ED5F7CB77A64 /* node.h */,
-				C9F5A24ACB2F49C6AAFBBD64D721F56A /* parser.h */,
-				A5647F941AC6213E53155A2CA2F84529 /* references.c */,
-				4A2681F36F7466F835934A4D097C8BB5 /* references.h */,
-				165F9E19D835B6D1246326955AA7C033 /* render.c */,
-				369DDAF7E863F90BA444203023DCDAA2 /* render.h */,
-				899FE9F94B28FE1E16D860CC3591EF8D /* scanners.c */,
-				F4A43426224972091DCE6175C211CF80 /* scanners.h */,
-				5BBD07017C236B1F0236952B470FD68B /* scanners.re */,
-				E20C59FF76667FF2C3B2BEA75F82C512 /* utf8.c */,
-				206B75C92323FFEFCD4DC2BA44BF2AA4 /* utf8.h */,
-				3DA51565DB06E84E4010A3D6DF085EE0 /* xml.c */,
-			);
-			name = cmark;
-			path = Sources/cmark;
-			sourceTree = "<group>";
-		};
-		1B50E284ED7949A72B3B08659F053DE1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E54ABE47620939773296B4F9645E9E6 /* Info.plist */,
-				F204D4AA43472B8CCDF45B997458D908 /* SwiftyMarkdown.modulemap */,
-				4CB5B5069B4C40F63F3B26B78536F9CB /* SwiftyMarkdown.xcconfig */,
-				FC2CCFC133024314AD5994C0D4D327D5 /* SwiftyMarkdown-dummy.m */,
-				28959C508DC48C82F0302B7D8AA90368 /* SwiftyMarkdown-prefix.pch */,
-				793215184C7F25D05D055F6FE19C9A87 /* SwiftyMarkdown-umbrella.h */,
+				AD84E5B1CED6139B4130F9855F53DADE /* Info.plist */,
+				9AEC229DC866DC61E34CD50F7AE0E22A /* SwiftyMarkdown.modulemap */,
+				429BCBA4D5212BA09F3E4460EA5055F2 /* SwiftyMarkdown.xcconfig */,
+				583ABAB6BF19E4E3E2B2B17215DD96C8 /* SwiftyMarkdown-dummy.m */,
+				46D9DB6205CDF94AECE950957A871F12 /* SwiftyMarkdown-prefix.pch */,
+				4761596646EE6A4C9FA7390C56FF97B1 /* SwiftyMarkdown-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Demo/Pods/Target Support Files/SwiftyMarkdown";
+			path = "../Target Support Files/SwiftyMarkdown";
 			sourceTree = "<group>";
 		};
-		3C11733E17AD8A5D0F01C59CEB25941E /* SwiftyMarkdown */ = {
+		4C1888BD8792244A9190DB75FA8C08E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1428BF561DB4AA9E1ECBF589A26EC97F /* SwiftyMarkdown.h */,
-				0BED895F5212EFBA6D46C3F84CDAE0D2 /* cmark */,
-				A8AA80611F92AEEC85232A923297B962 /* Pod */,
-				713A95BAF8C7702538FB5915EA2070E0 /* Sources */,
-				1B50E284ED7949A72B3B08659F053DE1 /* Support Files */,
+				888E47A51E926AE63961EBA876E199DF /* SwiftyMarkdown */,
 			);
-			name = SwiftyMarkdown;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -264,44 +200,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		713A95BAF8C7702538FB5915EA2070E0 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				ED16610A7435DCD338428D5A725A4E8E /* Markdown.swift */,
-				11D30FC764E4920EFCE66DA71BC962D1 /* MarkdownView.swift */,
-				C7FB5E1494C2F33B90B8EFB0A5762E11 /* Parsers */,
-			);
-			name = Sources;
-			path = Sources/Sources;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9DA25D2BE62488CBF5FA81F7AA958D69 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4C1888BD8792244A9190DB75FA8C08E5 /* Pods */,
 				D1DA521B77209F85334BAD1BC23C0948 /* Products */,
 				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9DA25D2BE62488CBF5FA81F7AA958D69 /* Development Pods */ = {
+		888E47A51E926AE63961EBA876E199DF /* SwiftyMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				3C11733E17AD8A5D0F01C59CEB25941E /* SwiftyMarkdown */,
+				B3488AF242DB5C8AE4EE479C04470221 /* blocks.c */,
+				D9F30409176CD662D2DDE32A196AAC33 /* buffer.c */,
+				3D1D984962DAB71B3B6E8F02AF281012 /* buffer.h */,
+				AB5D8E80E5482BD6F6C65EEC6FB88E37 /* case_fold_switch.inc */,
+				4672F240E8187253A3727E4B93756B2F /* chunk.h */,
+				5C97713D399AA7E793DA82BCDD1DF7B7 /* CMakeLists.txt */,
+				13DCBAC5F4BBBC588AC1A89F343964CD /* cmark.c */,
+				CD58D28F9B1DB0981DA611B6F76732CE /* cmark.h */,
+				EC652469736C6531088D7BA04090966F /* cmark_ctype.c */,
+				E8629B7511E36A68E2CB735A79EFC36E /* cmark_ctype.h */,
+				A42E6B9C85C8AC65A84235DD20579258 /* cmark_export.h */,
+				D82FAFE8A2865077275EA8B08D60EAD4 /* cmark_version.h */,
+				6904F69CD82B8C007003FE320FE76A0B /* cmark_version.h.in */,
+				B9BC03CE2A4ECA71A98B763EC1BDAAAD /* commonmark.c */,
+				1DFAD8BBDCE9442E672EECA09A2E3C4D /* config.h */,
+				DA0AB78AFD35E00035821542F33C8740 /* config.h.in */,
+				5BCC175CDA2F024199002E365DD2CAB7 /* entities.inc */,
+				A794B790F1262F2DD2B9175CE61E2DB1 /* houdini.h */,
+				091B3783366396E3F80095AB85EC3EFD /* houdini_href_e.c */,
+				A2FAC6790B3001F8BC961B923B8148F3 /* houdini_html_e.c */,
+				57689F147F47AEEFFDBD928F29E9EAD4 /* houdini_html_u.c */,
+				3A127DFC0FCAFADB3BDA45BF6F47BEEB /* html.c */,
+				F552A30702B5AE283D2E4ED4CA2DBC4B /* inlines.c */,
+				275162DE509A6967ED5241FA0E83929E /* inlines.h */,
+				44516994C5BAA3FCA91E6DA3F8B090C9 /* iterator.c */,
+				689F001064CD8CE577042359CFBA8900 /* iterator.h */,
+				09F6DBFE7388EA0D4DE12820C505E41E /* latex.c */,
+				96A17E733FAFA20448F9BCD7CE2A48DA /* libcmark.pc.in */,
+				219F43E85C3AA820F8D1D85FABBD88DF /* main.c */,
+				597DB8597855CE0374E2AE5336F602CD /* man.c */,
+				62A7AD01778498110A8C3A2C17F9A5F0 /* MarkdownView.swift */,
+				B6D6F8E32AC16BEFBAA3F0FACCB9F8C9 /* module.modulemap */,
+				79B717066493A2AA62C2FFD2BC8609CD /* node.c */,
+				CE18EE31ABC0FBEBC5BF520B6304C472 /* node.h */,
+				F6CB16F9260BC4E03C87EF2BB273FF71 /* parser.h */,
+				4602A7B29495313AA9F16CA69788C612 /* references.c */,
+				02C23C96EEE26E92247F5EE5249F4DB9 /* references.h */,
+				6F2040CC26E8B6323C79E4E613094982 /* render.c */,
+				F3E13AB7A86FFCCB3E3FBFD81B8BC96F /* render.h */,
+				60FB66031E57B9D64B8DD36D66BB3561 /* scanners.c */,
+				FA9A443FC341CD165075603EB2E6F89E /* scanners.h */,
+				9F490115BAC057E1E7F93443C4615092 /* scanners.re */,
+				A9026C2C04DF002ADBF55613A57F1F84 /* SwiftyMarkdown.h */,
+				EF1E91CC69B8AD12FEAE0179A2BD82B6 /* SwiftyMarkdown.swift */,
+				1508D6E516046F93A7F1B1F5338CDC2A /* utf8.c */,
+				682B31480C071F23C3A0CD560CCF679D /* utf8.h */,
+				10600A679ED27079F6E7BE87D2CFDC86 /* xml.c */,
+				28F9981F8D894FE2B2E9459543BD76AC /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A8AA80611F92AEEC85232A923297B962 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9B7FE09F87F5CC6AB36DEA6E2CEDE2DE /* LICENSE */,
-				9ED3F9743C1211E6EAC483022F529931 /* README.md */,
-				B385979DB0DA583E0986EB4F3F231C73 /* SwiftyMarkdown.podspec */,
-			);
-			name = Pod;
+			name = SwiftyMarkdown;
+			path = SwiftyMarkdown;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -310,16 +273,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C7FB5E1494C2F33B90B8EFB0A5762E11 /* Parsers */ = {
-			isa = PBXGroup;
-			children = (
-				C66C8303921B630769B7DA4653D916FA /* HtmlParser.swift */,
-				2B107DE63BE3C01A262529A709803337 /* Parser.swift */,
-			);
-			name = Parsers;
-			path = Parsers;
 			sourceTree = "<group>";
 		};
 		CF58A9AAA805FDF37F67723722F14D8F /* Pods-Demo */ = {
@@ -360,28 +313,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		431A15389D04E66E05C964069E2E46D4 /* Headers */ = {
+		16B53CB3299F36BD17CDCB98C020395F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AB1E567BE7D2C1D4AD82CD823D13F26 /* buffer.h in Headers */,
-				06CEB2AA5971BC66F6E3CF7F4BE0D7D3 /* chunk.h in Headers */,
-				E76E55F93B026F25078809B89317B2C4 /* cmark.h in Headers */,
-				9B67FD47D89CB9287CD121D5160DE2EF /* cmark_ctype.h in Headers */,
-				0F26337EDA07EAF21D75704B81B84109 /* cmark_export.h in Headers */,
-				6960C8B6813D70E4D86EFD4627ABEECE /* cmark_version.h in Headers */,
-				D8D988D92DBB9A26CE9C911D6A0D32D8 /* config.h in Headers */,
-				164F9F40138069FD2E43DF92429FF903 /* houdini.h in Headers */,
-				C4713303AC50A60CDCA5554960DC422F /* inlines.h in Headers */,
-				11A7410FB528585C46E8BEB886E8CF9F /* iterator.h in Headers */,
-				8F6C7C3928CFA440371AF092D288109E /* node.h in Headers */,
-				2EBFFF43465CA875DFFDFD762CD1C1B4 /* parser.h in Headers */,
-				CC3F7BF5CD095BA74A79F8A0EA76747B /* references.h in Headers */,
-				C754BC2274704806FE709D33136DDF80 /* render.h in Headers */,
-				3338F916D47C590F9851336406D70954 /* scanners.h in Headers */,
-				39D2C8383C5AA56A5ADD0BAA84C64BE6 /* SwiftyMarkdown-umbrella.h in Headers */,
-				DBC31BB668364DF01D38A700550606A9 /* SwiftyMarkdown.h in Headers */,
-				AE6F35D2B4F424E411C2F9C6C5BC2824 /* utf8.h in Headers */,
+				5BC42C46F1D25B61D00ADC3B53A5106C /* buffer.h in Headers */,
+				33EB65932D64EB01557A436348441579 /* chunk.h in Headers */,
+				6984451D78C0C98F3F546C06C7F3E35A /* cmark.h in Headers */,
+				80AB3F98DEC71FD5CB95E3C8FDC917D1 /* cmark_ctype.h in Headers */,
+				D7D7AB6860867BEB8143B9BEB46D61D2 /* cmark_export.h in Headers */,
+				B45098232BC25EDC45D5FDBF97284AFF /* cmark_version.h in Headers */,
+				852D5642C61FD3AAA5075865A09F6A91 /* config.h in Headers */,
+				961814F711AA00332AE0C0800E8B3662 /* houdini.h in Headers */,
+				1AA2E2C3AD25EC8412DE5F5B43C6FF4C /* inlines.h in Headers */,
+				C5AD09F36A05C9C4EB23A86E630D8F39 /* iterator.h in Headers */,
+				9A4C83798DE558544199F7C0BE95FF81 /* node.h in Headers */,
+				E22D0D9215750E5387C3F0CAAECD5CF9 /* parser.h in Headers */,
+				E1581C1E8660B17B51832609C7BAEFC0 /* references.h in Headers */,
+				A5F1AA6B60893F866C8164E2F3F3C1E4 /* render.h in Headers */,
+				2411D423303944909331662BF12294C5 /* scanners.h in Headers */,
+				AD2D66DFCB682EC91A0728DA9C413F72 /* SwiftyMarkdown-umbrella.h in Headers */,
+				C40B6428993DD5282AB2C64DC67D4461 /* SwiftyMarkdown.h in Headers */,
+				43C2CBBB71F911F68A7DCEACE9CB28BF /* utf8.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +363,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45F569CD6C3D33D7C160D9E11DF5455B /* Build configuration list for PBXNativeTarget "SwiftyMarkdown" */;
 			buildPhases = (
-				D8473FCAEEB1872DC67C63198F21D294 /* Sources */,
+				0DE82030B69C310392A4113301F4D202 /* Sources */,
 				2C04BF44293AA8923A5811BC6AAFBF2D /* Frameworks */,
-				431A15389D04E66E05C964069E2E46D4 /* Headers */,
+				16B53CB3299F36BD17CDCB98C020395F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -451,51 +404,49 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0DE82030B69C310392A4113301F4D202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A474BCB43F9624C54222E349C898841D /* blocks.c in Sources */,
+				643AF1AE1B42C8E704221844360D02E6 /* buffer.c in Sources */,
+				C43444F113B135801F0B45980CD3579A /* case_fold_switch.inc in Sources */,
+				F941E3E9B012EB558A73DAD754902864 /* CMakeLists.txt in Sources */,
+				8836E1F6596ABD05AA53E9A1FC465F21 /* cmark.c in Sources */,
+				24355E36F3444E1709470D521A8FF017 /* cmark_ctype.c in Sources */,
+				C6514FFCA0D84C50C9E182EAA42C19F2 /* cmark_version.h.in in Sources */,
+				C9F24BB77EAFFCBA75BBAA4FE5D8FDC9 /* commonmark.c in Sources */,
+				C6E75E1AEA9F1FF687DC9840001E0580 /* config.h.in in Sources */,
+				0D7FE99FC613321E73D18027A2EA5698 /* entities.inc in Sources */,
+				4BC6C57F19775CADBCBFC1F4DEB11D1E /* houdini_href_e.c in Sources */,
+				C591FE442E9EF0DFB92A420EFFC8E077 /* houdini_html_e.c in Sources */,
+				BA813E6861D980DDB031FCD574A804B3 /* houdini_html_u.c in Sources */,
+				4B23B5CC103A8EAF9E29E30C77CF2056 /* html.c in Sources */,
+				309A17AE64C7E3C303063B5F96CB7278 /* inlines.c in Sources */,
+				BE7F8058EAB15F24946BBA4BB9E8EF3D /* iterator.c in Sources */,
+				85E6A4EF855E5760DFA429794399967B /* latex.c in Sources */,
+				7727DC8E03A84ECA63EFAB597169BACA /* libcmark.pc.in in Sources */,
+				CB29D301D9E9A984D13E5F2CAC980731 /* main.c in Sources */,
+				6A5156DC75A7BE0E1EB9A8E834189D08 /* man.c in Sources */,
+				D88D712CF4348F2C9405CF42BAECB546 /* MarkdownView.swift in Sources */,
+				9C963C0E98414E941C8CB388472DC392 /* module.modulemap in Sources */,
+				9C8955486C0FFF1B66E439666DE163B5 /* node.c in Sources */,
+				0578857AAA85C928F38BEE8899C545DC /* references.c in Sources */,
+				7A162089D5492C141ED4EADC0E3B04EE /* render.c in Sources */,
+				528B68F7B874101075CB9C982D0AC63F /* scanners.c in Sources */,
+				49C6AEDE1F414B3D0A643821B5B35DD0 /* scanners.re in Sources */,
+				E1BA341FCAC6744E54D2558809DC6152 /* SwiftyMarkdown-dummy.m in Sources */,
+				F6B9768BFC03F6AE8E2C835F7F6683B0 /* SwiftyMarkdown.swift in Sources */,
+				65AB9FE9D38A8AC9EB396C1AC646D024 /* utf8.c in Sources */,
+				ADE585BB1E27D63AF0A462461ABC9A53 /* xml.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEE2DB1FA1FD3339AC676DB1181CA916 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5177FE00854884EF2822C2CB8D500C89 /* Pods-Demo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8473FCAEEB1872DC67C63198F21D294 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB28D2C52496F2DE796950BFE479CDF0 /* blocks.c in Sources */,
-				7A0830394F3E9A2A37C94BA8EB78CA6C /* buffer.c in Sources */,
-				D02BB69F491F831CA8577BD54AB50B6B /* case_fold_switch.inc in Sources */,
-				30C4ED484E491AEB3A9183DFC01B1350 /* CMakeLists.txt in Sources */,
-				5C5E2D9C584765AF7276C1728AB4A148 /* cmark.c in Sources */,
-				C55042315E1F9BAA3E44895ACDA1BAA0 /* cmark_ctype.c in Sources */,
-				2D77F0D83205DBF2ED77B08B54904E76 /* cmark_version.h.in in Sources */,
-				EF3D7861CAD7A954431691E26E02D327 /* commonmark.c in Sources */,
-				CD7B906F95E43A1C7A5A9F05C1EFAD3F /* config.h.in in Sources */,
-				08CDE921B260D78EBD54E82B33FB2BF0 /* entities.inc in Sources */,
-				DEF5D018A7B61F903A54E85E8C59DADD /* houdini_href_e.c in Sources */,
-				E34ABE0F62891CC4117C0CAC617C0263 /* houdini_html_e.c in Sources */,
-				A1821B37E51CA35864AAE99CAEDE17A8 /* houdini_html_u.c in Sources */,
-				D21BE3BEC7023BF820CEFD5FB194590B /* html.c in Sources */,
-				A5D9C8F7619C39A143EB4DF44EC9C18A /* HtmlParser.swift in Sources */,
-				FCA962CCFF7F0DE119FF8F8B33CE2ED8 /* inlines.c in Sources */,
-				B636550DCFE35367628C27054A2E2C26 /* iterator.c in Sources */,
-				7801D5212735EC62F399BEA8D3CEC4EA /* latex.c in Sources */,
-				1375BA2C8942610D690BF44BB4360FDC /* libcmark.pc.in in Sources */,
-				0F027D562B7EFBF407DD021C74396805 /* main.c in Sources */,
-				5BAE477383274E113C512118DEA004C1 /* man.c in Sources */,
-				81CD6ED3177F843DAAA872631D44C51B /* Markdown.swift in Sources */,
-				6A89735E0206B2815DDC52B59889971F /* MarkdownView.swift in Sources */,
-				2C4FE6D9010E22646164062054683D1C /* module.modulemap in Sources */,
-				8999C7A8D5AD300E4C437CFC76B468A0 /* node.c in Sources */,
-				E0EDE5395984C27DF27F7642C27ECE7C /* Parser.swift in Sources */,
-				424A30C63B7061D464BB441F0F09A5FD /* references.c in Sources */,
-				A59B3B546D0FED8B790AED0AB8027222 /* render.c in Sources */,
-				55B16E344191AD64CEACE9CC493896D2 /* scanners.c in Sources */,
-				38D49A87880E6D50CAE7ECB021E695BF /* scanners.re in Sources */,
-				3A6F9F241D75E17E73B0BA53786FDABE /* SwiftyMarkdown-dummy.m in Sources */,
-				E01CA7C7A29B23624FD9EE7AFBBCAF0C /* utf8.c in Sources */,
-				498FEA2839C458D3C7101CFD63C1A7A8 /* xml.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,7 +566,7 @@
 		};
 		55EC98B00AF5F06939EAB5E5CA5DFD87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CB5B5069B4C40F63F3B26B78536F9CB /* SwiftyMarkdown.xcconfig */;
+			baseConfigurationReference = 429BCBA4D5212BA09F3E4460EA5055F2 /* SwiftyMarkdown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,7 +700,7 @@
 		};
 		F7A0F21D4152E095B61AF76E4AB2FFAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CB5B5069B4C40F63F3B26B78536F9CB /* SwiftyMarkdown.xcconfig */;
+			baseConfigurationReference = 429BCBA4D5212BA09F3E4460EA5055F2 /* SwiftyMarkdown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
