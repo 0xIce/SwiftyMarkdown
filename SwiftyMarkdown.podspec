@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/hotchner/SwiftyMarkdown.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/*', 'Sources/*'
   s.requires_arc = true
   s.module_name = "SwiftyMarkdown"
   s.preserve_path = 'Sources/cmark/module.modulemap'
